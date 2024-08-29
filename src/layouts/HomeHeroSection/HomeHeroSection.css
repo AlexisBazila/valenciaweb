@@ -50,10 +50,18 @@
 }
 
 .hero-image {
-  flex-shrink: 0;
+  margin-left: 80px;
 }
 
+.ImgTest {
+  height: 500px;
+  width: 300px;
+  background-color: #333333;
+  border-radius: 300px 0px 300px 0px;
+  transform: rotate(10deg);
+}
 .hero-image img {
-  max-width: 100%;
-  height: auto;
+  border-radius: 300px 0px 300px 0px;
+  width: 90%;
+  transform: rotate(-7deg);
 }
