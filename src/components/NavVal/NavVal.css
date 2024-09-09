@@ -1,0 +1,47 @@
+/*************************** NavBar CSS ********************************/
+.NavBarVal {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+.CointainerNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.NavBarLink {
+    margin: 10px;
+    font-family: "Quicksand", sans-serif;
+    color: #61386e;
+    text-decoration:none;
+    font-size: 20px;
+    position: relative;
+    display: inline-block;
+    transition: color 0.3s ease;
+  }
+  .NavBarLink::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -3px;
+    left: 50%;
+    background-color: #61386e;
+    transition: width 0.3s ease, left 0.3s ease;
+}
+
+.NavBarLink:hover {
+    color: #452b4d;
+}
+
+.NavBarLink:hover::after {
+    width: 100%;
+    left: 0;
+}

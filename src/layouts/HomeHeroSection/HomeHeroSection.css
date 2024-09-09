@@ -2,9 +2,11 @@
   background-color: #20a2ad;
   padding: 60px 0;
   position: relative;
+  margin-top: 50px;
+  border-radius: 0 0 190px 0;
 }
 
-.container {
+.ContainerHero {
   display: flex;
   justify-content: space-between;
   align-items: center;

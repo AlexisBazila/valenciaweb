@@ -8,6 +8,10 @@
   line-height: 1.2;
   box-sizing: border-box;
 }
+container {
+  display: flex;
+  justify-content: space-between;
+}
 h1 {
   font-family: "Cinzel Decorative", serif;
   font-weight: 400;
@@ -18,3 +22,4 @@ h2 {
 p {
   font-family: "Junge", cursive;
 }
+

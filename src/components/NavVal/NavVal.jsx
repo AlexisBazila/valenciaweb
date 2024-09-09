@@ -3,19 +3,29 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import LogoVal from "../../assets/images/logoval.jpg";
+import "./NavVal.css";
 
 const NavVal = () => {
   return (
-    <div>
+    <div className="NavBarVal">
       <Navbar bg="dark" data-bs-theme="dark">
-        <Container>
+        <Container className="CointainerNav">
           <Navbar.Brand href="#home">
             <img src={LogoVal} alt="" />
           </Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+            <Nav.Link className="NavBarLink" href="#home">
+              Home
+            </Nav.Link>
+            <Nav.Link className="NavBarLink" href="#features">
+              Nosotros
+            </Nav.Link>
+            <Nav.Link className="NavBarLink" href="#pricing">
+              Servicios
+            </Nav.Link>
+            <Nav.Link className="NavBarLink" href="#pricing">
+              Escuela
+            </Nav.Link>
           </Nav>
         </Container>
       </Navbar>

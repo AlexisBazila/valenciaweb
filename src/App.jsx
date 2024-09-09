@@ -1,14 +1,16 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
+import NavVal from "./components/NavVal/NavVal";
 import HomeHeroSection from "./layouts/HomeHeroSection/HomeHeroSection";
-
 
 function App() {
   return (
-  <HomeHeroSection />
-);
+    <>
+      <NavVal />
+      <HomeHeroSection />
+      <HomeHeroSection />
+      <HomeHeroSection />
+    </>
+  );
 }
 
 export default App;
