@@ -1,0 +1,12 @@
+.SaludVelleza {
+height: 100vh;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ImgTest2 {
+  height: 500px;
+  width: 500px;
+  background-color: #333333;
+}

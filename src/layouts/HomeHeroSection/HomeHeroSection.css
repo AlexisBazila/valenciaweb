@@ -67,3 +67,9 @@
   width: 90%;
   transform: rotate(-7deg);
 }
+
+.SubContainerHero{
+height: 640px;
+border-radius: 0 0 190px 0;
+border-bottom: 10px solid #61386e;
+}

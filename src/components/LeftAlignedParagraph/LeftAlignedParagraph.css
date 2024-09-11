@@ -1,0 +1,10 @@
+/*LEFT ALIGNED PARAGRAPH CSS*/
+.LeftAlignedParagraph h2{
+    color: #333333;
+    font-weight: 400;
+    font-size: 40px;
+}
+.LeftAlignedParagraph p{
+    color: #333333;
+    max-width: 60vw;
+}
