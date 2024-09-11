@@ -1,0 +1,19 @@
+.SubContainerSaludBelleza {
+  height: 85vh;
+  background-color: #20a2ad;
+}
+.ContainerSaludBelleza {
+  height: 85vh;
+  background-color: #ffffff;
+  border-radius: 0 0 0 200px;
+}
+.SaludBelleza {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+}
+.ImgTest2 {
+  height: 500px;
+  width: 500px;
+  background-color: #333333;
+}

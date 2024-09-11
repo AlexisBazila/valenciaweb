@@ -7,4 +7,5 @@
 .LeftAlignedParagraph p{
     color: #333333;
     max-width: 60vw;
+    padding: 10px 90px 5px 0;
 }

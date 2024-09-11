@@ -1,14 +1,14 @@
 import "./App.css";
 import NavVal from "./components/NavVal/NavVal";
 import HomeHeroSection from "./layouts/HomeHeroSection/HomeHeroSection";
-import SaludVelleza from "./layouts/SaludVelleza/SaludVelleza";
+import SaludBelleza from "./layouts/SaludBelleza/SaludBelleza";
 
 function App() {
   return (
     <>
       <NavVal />
       <HomeHeroSection />
-      <SaludVelleza/>
+      <SaludBelleza/>
       <HomeHeroSection />
     </>
   );

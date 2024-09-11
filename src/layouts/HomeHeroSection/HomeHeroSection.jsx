@@ -7,7 +7,6 @@ const HomeHeroSection = () => {
     <>
     <div className="SubContainerHero">
       <section className="hero-section">
-        
         <div className="ContainerHero">
           <div className="hero-content">
             <h2 className="hero-title">Cuidando tu belleza y bienestar</h2>
