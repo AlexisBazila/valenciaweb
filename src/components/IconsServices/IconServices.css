@@ -1,0 +1,19 @@
+.IconServices {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 50px 15px 15px 15px;
+}
+
+.PseudoIcon {
+  width: 150px;
+  height: 150px;
+  background-color: #333333;
+}
+
+.IconServices p {
+  color: #fff;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}

@@ -10,13 +10,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 75vh;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
 .hero-content {
-  max-width: 600px;
+  max-width: 80vw;
 }
 
 .hero-title {
@@ -69,7 +70,7 @@
 }
 
 .SubContainerHero{
-height: 640px;
+  height: 90vh;
 border-radius: 0 0 190px 0;
 border-bottom: 10px solid #61386e;
 }

@@ -1,0 +1,17 @@
+.SectionResumenServicios{
+    height: 80vh;
+    background-color: #20a2ad;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.TittleSection{
+    display: flex;
+    justify-content: center;
+}
+.ContenedorServicios{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+}

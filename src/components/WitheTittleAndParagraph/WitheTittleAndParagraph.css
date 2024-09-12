@@ -1,0 +1,12 @@
+.WitheTittleAndParagraph h2 {
+  font-size: 40px;
+  color: #fff;
+  padding-top: 80px;
+}
+.WitheTittleAndParagraph p {
+  color: #fff;
+}
+.WitheTittleAndParagraph {
+    width: 50%;
+  text-align: center;
+}

@@ -1,6 +1,7 @@
 import "./App.css";
 import NavVal from "./components/NavVal/NavVal";
 import HomeHeroSection from "./layouts/HomeHeroSection/HomeHeroSection";
+import ResumenServicios from "./layouts/ResumenServicios/ResumenServicios";
 import SaludBelleza from "./layouts/SaludBelleza/SaludBelleza";
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
       <NavVal />
       <HomeHeroSection />
       <SaludBelleza/>
-      <HomeHeroSection />
+      <ResumenServicios/>
     </>
   );
 }
