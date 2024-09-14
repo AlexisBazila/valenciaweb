@@ -11,7 +11,7 @@ const NavVal = () => {
       <Navbar bg="dark" data-bs-theme="dark">
         <Container className="CointainerNav">
           <Navbar.Brand href="#home">
-            <img src={LogoVal} alt="" />
+            <img src={LogoVal} className="LogoImg" alt="" />
           </Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link className="NavBarLink" href="#home">
