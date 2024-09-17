@@ -10,8 +10,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 70vh;
-  max-width: 90vw;
+  height: 76vh;
+  max-width: 70vw;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -64,13 +64,23 @@
   transform: rotate(10deg);
 }
 .hero-image img {
+ height: 500px;
+  width: 300px;
   border-radius: 300px 0px 300px 0px;
-  width: 90%;
-  transform: rotate(-7deg);
+  transform: rotate(10deg);
 }
 
-.SubContainerHero{
+.SubContainerHero {
   height: 90vh;
-border-radius: 0 0 190px 0;
-border-bottom: 10px solid #61386e;
+  border-radius: 0 0 190px 0;
+  border-bottom: 10px solid #61386e;
+}
+
+@media (max-height: 920px) {
+  .ContainerHero {
+    height: 74vh;
+  }
+  .SubContainerHero {
+    height: 91vh;
+  }
 }
