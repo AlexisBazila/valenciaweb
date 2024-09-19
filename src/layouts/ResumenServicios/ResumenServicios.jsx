@@ -2,6 +2,11 @@ import React from "react";
 import "./ResumenServicios.css";
 import WitheTittleAndParagraph from "../../components/WitheTittleAndParagraph/WitheTittleAndParagraph";
 import IconServices from "../../components/IconsServices/IconServices";
+// ICONOS
+import { GiFootprint } from "react-icons/gi";
+import { PiHairDryerFill } from "react-icons/pi";
+import { TbMassage } from "react-icons/tb";
+import { FaSpa } from "react-icons/fa";
 
 const ResumenServicios = () => {
   return (
@@ -9,20 +14,19 @@ const ResumenServicios = () => {
       <div className="TittleSection">
         <WitheTittleAndParagraph
           tittle="NUESTROS SERVICIOS"
-          text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus blanditiis reprehenderit earum in impedit atque aperiam culpa nemo fugit similique odit, fugiat ipsam quod voluptas! Natus eaque esse vitae molestias."
+          text="En el Instituto Valencia, ofrecemos una amplia gama de servicios de salud, belleza y bienestar, diseñados para cuidar de ti de forma integral. Descubre nuestros tratamientos personalizados y vive una experiencia única."
         />
       </div>
       <div className="ContenedorServicios">
-        <IconServices name='TITULO' />
-        <IconServices name='TITULO' />
-        <IconServices name='TITULO' />
-        <IconServices name='TITULO' />
-        <IconServices name='TITULO' />
-        <IconServices name='TITULO' />
-        <IconServices name='TITULO' />
-        <IconServices name='TITULO' />
-        <IconServices name='TITULO' />
-        <IconServices name='TITULO' />
+        <IconServices name='PODOLOGIA' icon={<GiFootprint/>} />
+        <IconServices name='PELUQUERIA' icon={<PiHairDryerFill/>} />
+        <IconServices name='MAQUILLAJE' />
+        <IconServices name='MASAJES' icon={<TbMassage/>}/>
+        <IconServices name='DEPILACIÓN' />
+        <IconServices name='COSMETOLOGIA' />
+        <IconServices name='APARATOLOGIA' />
+        <IconServices name='SPA' icon={<FaSpa/>}/>
+        <IconServices name='DERMAPEN' />
       </div>
     </section>
   );

@@ -6,16 +6,20 @@
   height: 85vh;
   background-color: #ffffff;
   border-radius: 200px 0 0 0;
-}
-.ResumenNosotros {
- padding: 70px;
   display: flex;
   justify-content: center;
 }
-.ImgTest3 {
-  height: 300px;
-  width: 500px;
-  background-color: #333333;
-  border-radius: 150px 0 100px 0;
+.ResumenNosotros {
+ padding-top: 150px;
+  display: flex;
+  justify-content: center;
+  width: 80vw;
+}
+
+.ImgInstituto{
+  height: 500px;
+  width: 800px;
+  border: 2px solid #20a2ad;
+  border-radius: 180px 0 180px 0;
   margin-right: 30px;
 }

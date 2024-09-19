@@ -1,17 +1,20 @@
 import React from "react";
 import "./ResumenNosotros.css";
 import LeftAlignedParagraph from "../../components/LeftAlignedParagraph/LeftAlignedParagraph";
+import instituto from '../../assets/images/instituto.jpg'
 
 const ResumenNosotros = () => {
+  const paragraphs = [
+    "En el Instituto Valencia, nos enorgullece ser un referente en el mundo de la belleza y el bienestar, ofreciendo una experiencia completa y personalizada a cada uno de nuestros clientes. Nuestro compromiso se basa en un enfoque integral que combina lo mejor de la estética, la salud y la educación, creando un espacio donde el cuidado personal es una prioridad y el bienestar interior se refleja en el exterior.",
+  ];
   return (
     <div className="SubContainerResumenNosotros">
       <div className="ContainerResumenNosotros">
         <div className="ResumenNosotros">
-        <div className="ImgTest3"></div>
+          <img src={instituto} className="ImgInstituto" alt="" />
           <LeftAlignedParagraph
             subTtitle="SOBRE NOSOTROS"
-            text="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto rem nemo quae vitae reiciendis dignissimos voluptates nam provident, ex sapiente porro, eaque quam quasi pariatur praesentium adipisci velit hic recusandae?
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto rem nemo quae vitae reiciendis dignissimos voluptates nam provident, ex sapiente porro, eaque quam quasi pariatur praesentium adipisci velit hic recusandae?"
+            paragraphs={paragraphs}
           />
         </div>
       </div>

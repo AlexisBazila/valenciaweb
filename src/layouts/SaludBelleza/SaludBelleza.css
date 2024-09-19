@@ -6,14 +6,21 @@
   height: 85vh;
   background-color: #ffffff;
   border-radius: 0 0 0 200px;
+    display: flex;
+  justify-content: center;
 }
 .SaludBelleza {
   margin: 50px;
+  width: 80%;
   display: flex;
   justify-content: center;
 }
-.ImgTest2 {
-  height: 500px;
-  width: 500px;
-  background-color: #333333;
+.ImgSaludBelleza {
+  height: 75vh;
+}
+
+@media (max-height: 920px) {
+  .ImgSaludBelleza {
+    height: 70vh;
+  }
 }

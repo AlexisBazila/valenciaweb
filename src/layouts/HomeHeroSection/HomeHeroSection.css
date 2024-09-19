@@ -74,6 +74,7 @@
   height: 90vh;
   border-radius: 0 0 190px 0;
   border-bottom: 10px solid #61386e;
+
 }
 
 @media (max-height: 920px) {

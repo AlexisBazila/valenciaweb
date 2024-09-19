@@ -1,13 +1,15 @@
-import React from 'react'
-import './LeftAlignedParagraph.css'
+import React from "react";
+import "./LeftAlignedParagraph.css";
 
-const LeftAlignedParagraph = ({subTtitle, text}) => {
+const LeftAlignedParagraph = ({ subTtitle, paragraphs = [] }) => {
   return (
-    <div className='LeftAlignedParagraph'>
+    <div className="LeftAlignedParagraph">
       <h2>{subTtitle}</h2>
-      <p>{text}</p>
+      {paragraphs.map((paragraph, index) => (
+        <p key={index}>{paragraph}</p>
+      ))}
     </div>
-  )
-}
+  );
+};
 
-export default LeftAlignedParagraph
+export default LeftAlignedParagraph;
