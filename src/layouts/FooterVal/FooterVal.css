@@ -1,0 +1,33 @@
+.SecFooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.Footer {
+  height: 300px;
+  width: 80vw;
+  background-color: #02a4b0;
+  border-radius: 0 400px 0 400px;
+}
+.LogoFooter {
+  height: 300px;
+  width: 300px;
+  border-radius: 0 50px 0 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ImgLogoFooter {
+  height: 150px;
+  width: 150px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 200px 0 200px;
+}
+
+.ImgLogoFooter img {
+  border-radius: 0 50px 0 50px;
+}

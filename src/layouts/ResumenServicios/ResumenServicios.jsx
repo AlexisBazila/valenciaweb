@@ -8,6 +8,8 @@ import { PiHairDryerFill } from "react-icons/pi";
 import { TbMassage } from "react-icons/tb";
 import { FaSpa } from "react-icons/fa";
 
+import Makeup from "../../assets/images/Makeup.svg";
+
 const ResumenServicios = () => {
   return (
     <section className="SectionResumenServicios">
@@ -18,15 +20,15 @@ const ResumenServicios = () => {
         />
       </div>
       <div className="ContenedorServicios">
-        <IconServices name='PODOLOGIA' icon={<GiFootprint/>} />
-        <IconServices name='PELUQUERIA' icon={<PiHairDryerFill/>} />
-        <IconServices name='MAQUILLAJE' />
-        <IconServices name='MASAJES' icon={<TbMassage/>}/>
-        <IconServices name='DEPILACIÓN' />
-        <IconServices name='COSMETOLOGIA' />
-        <IconServices name='APARATOLOGIA' />
-        <IconServices name='SPA' icon={<FaSpa/>}/>
-        <IconServices name='DERMAPEN' />
+        <IconServices name="PODOLOGIA" icon={<GiFootprint />} />
+        <IconServices name="PELUQUERIA" icon={<PiHairDryerFill />} />
+        <IconServices name="MAQUILLAJE" />
+        <IconServices name="MASAJES" icon={<TbMassage />} />
+        <IconServices name="DEPILACIÓN" />
+        <IconServices name="COSMETOLOGIA" />
+        <IconServices name="APARATOLOGIA" />
+        <IconServices name="SPA" icon={<FaSpa />} />
+        <IconServices name="DERMAPEN" />
       </div>
     </section>
   );
