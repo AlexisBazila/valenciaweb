@@ -1,18 +1,20 @@
 .IconServices {
-display: flex;
-flex-direction: column;
-align-items: center;
-margin: 50px 15px 15px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 15px 15px 15px;
+  margin: 50px;
 }
 
 .PseudoIcon {
   width: 150px;
   height: 150px;
   color: white;
-  font-size:  140px;
+  font-size: 140px;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 10px;
 }
 
 .IconServices p {
@@ -21,3 +23,7 @@ margin: 50px 15px 15px 15px;
   font-weight: 400;
   font-size: 20px;
 }
+
+/* .PseudoIcon:hover + p {
+  color: blueviolet;
+} */
