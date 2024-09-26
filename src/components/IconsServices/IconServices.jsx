@@ -1,12 +1,11 @@
 import React from "react";
 import "./IconServices.css";
 
-
 const IconServices = ({ name, icon }) => {
   return (
     <div className="IconServices">
       <div className="PseudoIcon">
-        {icon}
+        <img src={icon} alt="" />
       </div>
       <p>{name}</p>
     </div>

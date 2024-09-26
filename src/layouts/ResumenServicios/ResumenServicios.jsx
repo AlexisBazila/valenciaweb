@@ -3,14 +3,17 @@ import "./ResumenServicios.css";
 import WitheTittleAndParagraph from "../../components/WitheTittleAndParagraph/WitheTittleAndParagraph";
 import IconServices from "../../components/IconsServices/IconServices";
 // ICONOS
-import { GiFootprint } from "react-icons/gi";
-import { PiHairDryerFill } from "react-icons/pi";
-import { TbMassage } from "react-icons/tb";
-import { FaSpa } from "react-icons/fa";
-import { FaSprayCanSparkles } from "react-icons/fa6";
-
-import Makeup from "../../assets/images/Makeup.svg";
-import Depilacion from "../../assets/images/depilacion.svg";
+import aparatologia from "../../assets/images/aparatologia.svg";
+import cosmetologia from "../../assets/images/cosmetologia.svg";
+import dermapen from "../../assets/images/dermapen.svg";
+import dermapen2 from "../../assets/images/dermapen2.svg";
+import depilacion from "../../assets/images/depilacion.svg";
+import maquillaje from "../../assets/images/maquillaje.svg";
+import masaje from "../../assets/images/masaje.svg";
+import peluqueria from "../../assets/images/peluqueria.svg";
+import podologia from "../../assets/images/podologia.svg";
+import reductor from "../../assets/images/reductor.svg";
+import spa from "../../assets/images/spa.svg";
 
 const ResumenServicios = () => {
   return (
@@ -22,18 +25,16 @@ const ResumenServicios = () => {
         />
       </div>
       <div className="ContenedorServicios">
-        <IconServices name="PODOLOGIA" icon={<GiFootprint />} />
-        <IconServices name="PELUQUERIA" icon={<PiHairDryerFill />} />
-        <IconServices name="MAQUILLAJE" icon={<img src={Makeup} alt="" />} />
-        <IconServices name="MASAJES" icon={<TbMassage />} />
-        <IconServices
-          name="DEPILACIÓN"
-          icon={<img src={Depilacion} alt="" />}
-        />
-        <IconServices name="COSMETOLOGIA" icon={<FaSprayCanSparkles />} />
-        <IconServices name="APARATOLOGIA" />
-        <IconServices name="SPA" icon={<FaSpa />} />
-        <IconServices name="DERMAPEN" />
+        <IconServices name="PODOLOGIA" icon={podologia}/>
+        <IconServices name="PELUQUERIA" icon={peluqueria}/>
+        <IconServices name="MAQUILLAJE" icon={maquillaje}/>
+        <IconServices name="MASAJES" icon={masaje}/>
+        <IconServices name="DEPILACIÓN" icon={depilacion}/>
+        <IconServices name="COSMETOLOGIA" icon={cosmetologia}/>
+        <IconServices name="APARATOLOGIA" icon={aparatologia} />
+        <IconServices name="SPA" icon={spa}/>
+        <IconServices name="DERMAPEN" icon={dermapen}/>
+        <IconServices name="TRATAMIENTOS REDUCTORES" icon={reductor}/>
       </div>
     </section>
   );
