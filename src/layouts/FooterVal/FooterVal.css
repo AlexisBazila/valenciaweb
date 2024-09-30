@@ -7,7 +7,7 @@
 .Footer {
   display: flex;
   align-items: center;
-
+  justify-content: space-between;
   height: 300px;
   width: 80vw;
   background-color: #02a4b0;
@@ -35,8 +35,8 @@
   border-radius: 0 50px 0 50px;
 }
 .IconoRedesFooter {
-  height: 150px;
-  width: 150px;
+  height: 120px;
+  width: 120px;
   text-align: center;
   height: 180px;
   padding: 5px;
@@ -60,4 +60,55 @@
 .LinkRedesFooter {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+}
+
+.LinkRedes {
+  color: #fff;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.LinkRedes I {
+  font-size: 60px;
+}
+
+.IconoContactoFooter {
+  height: 120px;
+  width: 170px;
+  text-align: center;
+  height: 180px;
+  padding: 5px;
+  border-right: 5px solid #fff;
+  margin-right: 10px;
+  margin-left: 50px;
+}
+.IconoContactoFooter img {
+  height: 110px;
+  width: 100px;
+}
+.IconoContactoFooter P {
+  color: #fff;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  max-width: 200px;
+  text-align: center;
+}
+.LinkContacto {
+  color: #fff;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.LinkContacto I {
+  font-size: 50px;
 }
