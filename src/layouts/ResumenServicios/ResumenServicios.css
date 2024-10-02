@@ -16,3 +16,9 @@
   width: 80%;
   margin-top: 100px;
 }
+
+@media (max-height: 920px){
+  .ContenedorServicios {
+    margin-top: 30px;
+  }
+}

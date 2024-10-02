@@ -19,8 +19,36 @@
   height: 75vh;
 }
 
-@media (max-height: 920px) {
+@media (max-height: 920px) , (max-width: 1570px) {
   .ImgSaludBelleza {
     height: 70vh;
+  }
+}
+
+@media (max-width: 1420px) {
+  .ImgSaludBelleza {
+    height: 60vh;
+  }
+}
+@media (max-width: 1260px) {
+  .ImgSaludBelleza {
+    height: 50vh;
+  }
+  .SaludBelleza {
+    align-items: center;
+  }
+}
+@media (max-height: 768px),(max-width: 124px) {
+  .ImgSaludBelleza {
+    height: 50vh;
+  }
+  .SaludBelleza {
+    flex-direction: column;
+  }
+  .SubContainerSaludBelleza {
+    height: 100%;
+  }
+  .ContainerSaludBelleza {
+    height: 100%;
   }
 }

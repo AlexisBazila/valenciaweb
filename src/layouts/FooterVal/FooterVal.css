@@ -112,3 +112,43 @@
 .LinkContacto I {
   font-size: 50px;
 }
+
+@media (max-height: 920px), (max-width: 1570px){
+  .RedesFooter {
+    flex-direction: column;
+  }
+  .LinkRedes I {
+    font-size: 30px;
+  }
+  .LinkRedes {
+    font-size: 15px;
+  }
+  .IconoRedesFooter {
+    height: 150px;
+    border-right: none;
+    border-bottom: 5px solid #fff;
+   margin-bottom: 10px;
+  }
+
+  .IconoRedesFooter P {
+    font-size: 18px;
+  }
+  .IconoContactoFooter {
+    height: 120px;
+    width: 100%;
+    margin-left: 0;
+    border-right: none;
+    border-bottom: 5px solid #fff;
+   margin-bottom: 10px;
+  }
+  .IconoContactoFooter img {
+    height: 80px;
+    width: 80px;
+  }
+  .IconoContactoFooter P {
+    font-size: 18px;
+  }
+  .LinkContacto I {
+    font-size: 30px;
+  }
+}
