@@ -38,7 +38,7 @@
     align-items: center;
   }
 }
-@media (max-height: 768px),(max-width: 124px) {
+@media (max-width: 1160px) {
   .ImgSaludBelleza {
     height: 50vh;
   }
@@ -51,4 +51,10 @@
   .ContainerSaludBelleza {
     height: 100%;
   }
+  .ImgSaludBelleza {
+    height: 100%;
+    width: 40vw;
+    margin: 0;
+  }
+
 }
