@@ -50,7 +50,7 @@
   }
 }
 
-@media (max-height: 768px),(max-width: 124px) {
+@media (max-height: 768px),(max-width: 1024px) {
   .PseudoIcon {
     width: 100px;
     height: 100px;

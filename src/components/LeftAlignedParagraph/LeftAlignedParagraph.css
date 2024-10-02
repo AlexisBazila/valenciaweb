@@ -43,7 +43,7 @@ max-width: 100vw;
   }
 }
 
-@media (max-height: 768px),(max-width: 124px) {
+@media (max-height: 768px),(max-width: 1024px) {
 .LeftAlignedParagraph{
   margin-bottom: 25px;
 }

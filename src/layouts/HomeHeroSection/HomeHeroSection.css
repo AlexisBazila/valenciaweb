@@ -85,3 +85,15 @@
     height: 91vh;
   }
 }
+@media (max-height: 760px) {
+  .ContainerHero {
+    height: 72vh;
+  }
+
+}
+@media (max-height: 685px) {
+  .ContainerHero {
+    height: 70vh;
+  }
+
+}
