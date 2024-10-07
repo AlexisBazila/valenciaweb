@@ -1,11 +1,11 @@
-.hero-title {
-    font-size: 32px;
-    color: #ffffff;
-    margin-bottom: 10px;
-  }
-  
-  .hero-subtitle {
-    font-size: 48px;
-    color: #61386e;
-    margin-bottom: 20px;
-  }
+.SubTitle {
+  font-size: 32px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.Title {
+  font-size: 48px;
+  color: #61386e;
+  margin-bottom: 20px;
+}

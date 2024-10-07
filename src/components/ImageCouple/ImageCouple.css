@@ -1,0 +1,26 @@
+.image-container {
+  position: relative;
+  display: inline-block;
+  margin: 50px;
+  width: 500px;
+  height: 700px;
+}
+
+.large-image {
+  display: block;
+  width: 400px;
+  height: 600px;
+  border-radius: 500px 500px 0 0;
+  background-color: #292929;
+}
+
+.small-image {
+  position: absolute;
+  bottom: 50px;
+  left: -50px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 2px solid white;
+  background-color: beige;
+}

@@ -1,10 +1,10 @@
 import React from "react";
 import "./TituloPrincipal.css";
-function TituloPrincipal() {
+function TituloPrincipal({ titulo, subTitulo }) {
   return (
     <div>
-      <h1 className="hero-subtitle">INSTITUTO VALENCIA</h1>
-      <h2 className="hero-title">Cuidando tu belleza y bienestar</h2>
+      <h1 className="Title">{titulo}</h1>
+      <h2 className="SubTitle">{subTitulo}</h2>
     </div>
   );
 }

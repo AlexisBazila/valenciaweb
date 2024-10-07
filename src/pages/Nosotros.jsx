@@ -1,10 +1,9 @@
 import React from "react";
-import TituloPrincipal from "../../src/components/TituloPrincipal/TituloPrincipal"
-
+import HeroNosotros from "../layouts/HeroNosotros/HeroNosotros";
 function Nosotros() {
   return (
     <>
-      <TituloPrincipal />
+      <HeroNosotros />
     </>
   );
 }
