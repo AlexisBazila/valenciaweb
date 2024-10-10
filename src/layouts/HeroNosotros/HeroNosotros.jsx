@@ -5,11 +5,15 @@ import ImageCouple from "../../components/ImageCouple/ImageCouple";
 function HeroNosotros() {
   return (
     <div className="HeroNosotros">
-      <TituloPrincipal
-        titulo="Sobre Nosotros"
-        subTitulo="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-      />
-      <ImageCouple />
+      <div>
+        <TituloPrincipal
+          titulo="Sobre Nosotros"
+          subTitulo="Con un equipo de especialistas comprometidos y una visión centrada en ti, te ofrecemos una experiencia única para que te sientas y luzcas lo mejor posible. "
+        />
+      </div>
+      <div>
+        <ImageCouple />
+      </div>
     </div>
   );
 }

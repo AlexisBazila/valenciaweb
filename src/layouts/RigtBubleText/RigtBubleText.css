@@ -1,0 +1,16 @@
+.BorderBuble {
+  background-color: #ffff;
+}
+.Buble {
+  background-color: #02A4B0;
+  display: flex;
+  margin-bottom: 50px;
+  padding: 100px;
+  height: 85vh;
+  border-radius: 500px 0 500px 500px;
+}
+
+.ImageBuble{
+    margin-left: 30px;
+    margin-right: 40px;
+}

@@ -1,7 +1,6 @@
 .HeroNosotros {
   height: 100vh;
-  margin-top: 50px;
   display: flex;
   align-items: center;
-  width: 80%;
+  margin: 50px 10% 0 10%;
 }
