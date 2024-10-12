@@ -19,6 +19,8 @@ function Destacado() {
             <div>
               <IconItemListLeft />
               <IconItemListLeft />
+              <IconItemListLeft />
+              <IconItemListLeft />
             </div>
             <img src={nonimage} alt="" className="ImgDestacado" />
           </div>
