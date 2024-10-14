@@ -1,5 +1,4 @@
 .BackGroundDiv {
-  height: 85vh;
   margin-bottom: 10px;
   position: relative;
   background-image: url("../../assets/images/hoja2-arriba-izquierda.png"),
@@ -12,25 +11,11 @@
 }
 .ItemsImage {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   margin: 10px 15% 10px 15%;
 }
 .ImgDestacado {
-  width: 50%;
+  width: 50vh;
+  border-radius: 0 200px;
 }
-/* .BackGroundDiv::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.Content {
-  position: relative;
-  z-index: 2;
-  font-family: "Quicksand", sans-serif;
-  color: #333;
-} */

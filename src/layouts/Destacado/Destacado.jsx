@@ -1,7 +1,11 @@
 import React from "react";
 import "./Destacado.css";
 import CenterAlignedParagraph from "../../components/CenterAlignedParagraph/CenterAlignedParagraph";
-import nonimage from "../../assets/images/nonimage.jpg";
+import relajante from "../../assets/images/relajante.svg";
+import atpersonalizada from "../../assets/images/atpersonalizada.svg";
+import innovation from "../../assets/images/innovation.svg";
+import profesional from "../../assets/images/profesional.svg";
+import team from "../../assets/images/team.jpg";
 import IconItemListLeft from "../../components/IconItemListLeft/IconItemListLeft";
 function Destacado() {
   const paragraphs = [
@@ -17,12 +21,28 @@ function Destacado() {
           />
           <div className="ItemsImage">
             <div>
-              <IconItemListLeft />
-              <IconItemListLeft />
-              <IconItemListLeft />
-              <IconItemListLeft />
+              <IconItemListLeft
+                icon={atpersonalizada}
+                title="Atención personalizada"
+                subTitle="Nos enfocamos en brindar una atención cercana y personalizada a cada cliente, asegurando que cada visita sea una experiencia única y satisfactoria"
+              />
+              <IconItemListLeft
+                icon={profesional}
+                title="Profesionales altamente capacitados"
+                subTitle="Contamos con un equipo de especialistas comprometidos con su desarrollo continuo para ofrecerte los mejores tratamientos y resultados"
+              />
+              <IconItemListLeft
+                icon={innovation}
+                title="Innovación en tratamientos"
+                subTitle="Siempre estamos a la vanguardia de las últimas tendencias y tecnologías en belleza y bienestar, para garantizar que recibas lo más avanzado en cada sesión"
+              />
+              <IconItemListLeft
+                icon={relajante}
+                title="Ambiente relajante"
+                subTitle="Hemos creado un espacio acogedor y relajante donde puedes desconectar del día a día y disfrutar de un momento dedicado exclusivamente a ti"
+              />
             </div>
-            <img src={nonimage} alt="" className="ImgDestacado" />
+            <img src={team} alt="" className="ImgDestacado" />
           </div>
         </div>
       </div>
