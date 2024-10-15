@@ -5,6 +5,7 @@ import heroHome from "../../assets/images/heroHome.jpg";
 const HomeHeroSection = () => {
   return (
     <>
+    {/* Revisar este hero y replicar lo realizado en Reviews en cuanto a los bordes para evitar tantos cambios en el responsive */}
       <div className="SubContainerHero">
         <section className="hero-section">
           <div className="ContainerHero">

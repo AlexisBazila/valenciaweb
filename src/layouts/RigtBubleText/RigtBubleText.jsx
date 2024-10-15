@@ -1,6 +1,7 @@
 import React from "react";
 import "./RigtBubleText.css";
 import nonimage from "../../assets/images/nonimage.jpg";
+import evento1 from "../../assets/images/evento1.jpg";
 
 import LeftAlignedParagraph from "../../components/LeftAlignedParagraph/LeftAlignedParagraph";
 function RigtBubleText() {
@@ -12,7 +13,7 @@ function RigtBubleText() {
     <section className="SectionBuble">
       <div className="BorderBuble">
         <div className="Buble">
-          <img src={nonimage} alt="" className="ImageBuble" />
+          <img src={evento1} alt="" className="ImageBuble" />
           <LeftAlignedParagraph
             subTtitle="Nuestro Centro, Tu Centro de Belleza"
             paragraphs={paragraphs}
