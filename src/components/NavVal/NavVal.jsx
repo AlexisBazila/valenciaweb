@@ -8,7 +8,7 @@ import "./NavVal.css";
 const NavVal = () => {
   return (
     <div className="NavBarVal">
-      <Navbar bg="dark" data-bs-theme="dark">
+      <Navbar >
         <Container className="CointainerNav">
           <Navbar.Brand href="#home">
             <img src={LogoVal} className="LogoImg" alt="" />

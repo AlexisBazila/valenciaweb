@@ -3,6 +3,7 @@ import HeroNosotros from "../layouts/HeroNosotros/HeroNosotros";
 import RigtBubleText from "../layouts/RigtBubleText/RigtBubleText";
 import Destacado from "../layouts/Destacado/Destacado";
 import Reviews from "../layouts/Reviews/Reviews";
+import Equipo from "../layouts/Equipo/Equipo";
 function Nosotros() {
   return (
     <>
@@ -10,6 +11,7 @@ function Nosotros() {
       <RigtBubleText />
       <Destacado />
       <Reviews />
+      <Equipo />
     </>
   );
 }
