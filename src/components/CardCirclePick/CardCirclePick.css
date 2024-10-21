@@ -29,6 +29,8 @@
 
 .CardCirclePickImg .back {
   transform: rotateY(180deg);
+  scale: 80%;
+  border-radius: 0;
 }
 
 .CardCirclePick:hover .CardCirclePickImg {

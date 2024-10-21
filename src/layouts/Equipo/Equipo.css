@@ -1,8 +1,9 @@
 .EquipoDiv{
-    margin: 2% 10% 2% 10%;
+    margin: 2% 15% 2% 15%;
 }
 .EquipoDivCard{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
