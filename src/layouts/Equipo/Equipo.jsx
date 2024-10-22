@@ -3,10 +3,17 @@ import "./Equipo.css";
 import CenterAlignedParagraph from "../../components/CenterAlignedParagraph/CenterAlignedParagraph";
 import CardCirclePick from "../../components/CardCirclePick/CardCirclePick";
 import mariana from "../../assets/images/mariana.jpg";
+import karina from "../../assets/images/karina.jpg";
+import andrea from "../../assets/images/andrea.jpg";
+import noelia from "../../assets/images/noelia.jpg";
+import lorena from "../../assets/images/lorena.jpg";
+import marta from "../../assets/images/marta.jpg";
+import analia from "../../assets/images/analia.jpg";
 import podologia from "../../assets/images/podologia.svg";
 import masaje from "../../assets/images/masaje.svg";
 import cosmetologia from "../../assets/images/cosmetologia.svg";
 import dermatocosmiatria from "../../assets/images/dermatocosmiatria.svg";
+
 import lashista from "../../assets/images/lashista.svg";
 
 function Equipo() {
@@ -29,34 +36,40 @@ function Equipo() {
             subTitle="Podologia, Estetisista integral"
           />
           <CardCirclePick
-            frontPick={mariana}
+            frontPick={marta}
             backPick={masaje}
             title="MARTA ARRUA"
             subTitle="Esteticista, Masoterapeuta"
           />
           <CardCirclePick
-            frontPick={mariana}
+            frontPick={andrea}
             backPick={masaje}
             title="ANDREA SENA"
             subTitle="Masoterapeuta"
           />
           <CardCirclePick
-            frontPick={mariana}
+            frontPick={noelia}
             backPick={cosmetologia}
             title="NOELIA EICHELER"
             subTitle="Cosmetologa, Maquilladora"
           />
           <CardCirclePick
-            frontPick={mariana}
+            frontPick={lorena}
             backPick={dermatocosmiatria}
             title="LORENA SILVERO"
             subTitle="Dermatocosmiatra, Podologa"
           />
           <CardCirclePick
-            frontPick={mariana}
+            frontPick={karina}
             backPick={lashista}
             title="KARINA MACHADO"
             subTitle="Microdermopigmentacion, Lashista"
+          />
+          <CardCirclePick
+            frontPick={analia}
+            backPick={masaje}
+            title="ANALIA DIAS"
+            subTitle="Masoterapeuta"
           />
         </div>
       </div>
