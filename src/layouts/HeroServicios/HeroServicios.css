@@ -1,0 +1,7 @@
+.SectionServicios {
+  margin-bottom: 50px;
+}
+.DivServicios{
+    display: flex;
+    align-items: center;
+}

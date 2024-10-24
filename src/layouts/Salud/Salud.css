@@ -1,0 +1,25 @@
+.Salud {
+  margin: 50px 0 50px 0;
+}
+.SaludBuble {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 400px 0;
+  background-color: #02a4b0;
+}
+
+
+.SaludBackGrond {
+  background-color: #61386e;
+  margin: 0 10% 0 10%;
+  padding: 10px 0 10px 0;
+  border-radius: 400px 0;
+}
+
+.SaludCards{
+    display: flex;
+    align-items: center;
+
+}
