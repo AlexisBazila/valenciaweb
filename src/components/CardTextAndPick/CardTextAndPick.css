@@ -4,9 +4,8 @@
   margin-bottom: 100px;
 }
 .Pick {
-  height: 200px;
-  width: 200px;
-  background-color: gray;
+  max-height: 200px;
+  max-width: 200px;
 }
 
 .Text {

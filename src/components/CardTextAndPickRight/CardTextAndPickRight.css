@@ -4,9 +4,8 @@
   margin-top: 3%;
 }
 .CardTextAndPickRight-Pick {
-  background-color: grey;
-  height: 150px;
-  width: 150px;
+  max-height: 150px;
+  max-width: 150px;
 }
 .CardTextAndPickRight-Text {
   margin: 5px;

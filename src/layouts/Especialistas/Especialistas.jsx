@@ -1,15 +1,17 @@
 import React from "react";
 import "./Especialistas.css";
+import teambig from "../../assets/images/teambig.jpg";
+import teamsmall from "../../assets/images/teamsmall.jpg";
 function Especialistas() {
   return (
     <section className="EspecialistasSection">
-      <div className="Especialistas-BigImg"></div>
+      <img src={teambig} alt="" className="Especialistas-BigImg" />
       <div className="EspecialistasText">
         <div className="EspecialistasTextTitle">
           <h3>NUESTRO EQUIPO DE ESPECIALISTAS</h3>
         </div>
         <div className="Especialistas-SmallImg">
-          <div className="SmallImg"></div>
+          <img src={teamsmall} alt="" className="SmallImg" />
 
           <div className="parrafos">
             {" "}
