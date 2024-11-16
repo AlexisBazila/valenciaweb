@@ -1,0 +1,23 @@
+.CardTextAndPickRight {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+.CardTextAndPickRight-Pick {
+  max-height: 150px;
+  max-width: 150px;
+}
+.CardTextAndPickRight-Text {
+  margin: 5px;
+  width: 80%;
+  color: #333333;
+  text-align: right;
+}
+.CardTextAndPickRight-Text h3 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+}
+
+.CardTextAndPickRight-Text p {
+  font-family: "Junge", sans-serif;
+}

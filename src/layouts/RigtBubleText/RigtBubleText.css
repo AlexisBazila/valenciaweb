@@ -1,5 +1,7 @@
 .BorderBuble {
-  background-color: #ffff;
+  background-color: #61386e;
+  padding: 15px 0 0 0;
+  border-radius: 500px 0 500px 500px;
 }
 .Buble {
   background-color: #02A4B0;

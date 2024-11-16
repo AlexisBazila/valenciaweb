@@ -1,0 +1,14 @@
+.CardTextAndPick {
+  margin: 10px;
+  max-width: 200px;
+  margin-bottom: 100px;
+}
+.Pick {
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.Text {
+  text-align: center;
+  color: #fff;
+}

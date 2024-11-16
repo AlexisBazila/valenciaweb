@@ -14,14 +14,20 @@ function Reviews() {
       <div className="ReviewsBackGrond">
         <div className="ReviewsBuble">
           <WitheTittleAndParagraph
-            tittle="REVIEWS"
-            text="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut, dignissimos iure. A porro obcaecati necessitatibus excepturi, laboriosam mollitia beatae culpa est commodi perspiciatis illum molestias? Beatae, laboriosam? Eveniet, sint error."
+            tittle="TESTIMONIOS"
+            text="Nos enorgullece la satisfacción de nuestros clientes y su experiencia con nosotros. Aquí compartimos algunos de sus comentarios que reflejan nuestro compromiso con la calidad y el servicio. ¡Tu opinión también es importante para nosotros!"
           />
           {/* El div Carrousel debe de ser reemplazado por un carrousel de boostrap con imagenes de las reseñas de Google */}
+          {/* Revisar posibilidad de traer los datos de forma directa */}
           <div className="CarrouselReviews">
             {/* <div className="ImgReviews"></div>
             <p>←    →</p> */}
-            <Carousel data-bs-theme="dark" controls={false} indicators={false}>
+            <Carousel
+              data-bs-theme="dark"
+              controls={false}
+              indicators={false}
+              slide={false}
+            >
               <Carousel.Item>
                 <img
                   className="d-block w-100"

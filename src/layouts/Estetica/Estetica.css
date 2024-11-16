@@ -1,0 +1,19 @@
+.EsteticaSection {
+  margin-bottom: 10px;
+  position: relative;
+  background-image: url("../../assets/images/hoja2-arriba-izquierda.png"),
+    url("../../assets/images/hoja2-arriba-derecha.png"),
+    url("../../assets/images/hoja2-abajo-derecha.png"),
+    url("../../assets/images/hoja1-bajo-izquierda.png");
+  background-position: top left, top right, bottom right, left bottom;
+  background-size: 300px 300px, 400px 400px, 300px 300px, 300px 300px;
+  background-repeat: no-repeat;
+  padding: 20px;
+  z-index: 1;
+}
+.TituloEstetica{
+    margin: 0 10%;
+}
+.OpcionesEstetica{
+  margin: 5% 10%;
+}
