@@ -3,6 +3,10 @@ import "./Estetica.css";
 import CenterAlignedParagraph from "../../components/CenterAlignedParagraph/CenterAlignedParagraph";
 import CardTextAndPickLeft from "../../components/CardTextAndPickLeft/CardTextAndPickLeft";
 import CardTextAndPickRight from "../../components/CardTextAndPickRight/CardTextAndPickRight";
+// Imagenes
+import esteticapick from "../../assets/images/esteticapick.jpg";
+import peluqueriapick from "../../assets/images/peluqueriapick.jpg";
+import depilacionpick from "../../assets/images/depilacionpick.jpg";
 
 function Estetica() {
   const paragraphs = [
@@ -17,14 +21,17 @@ function Estetica() {
         <CardTextAndPickLeft
           title="Estetica Corporal"
           text="Descubre tratamientos personalizados que revitalizan, hidratan y moldean tu cuerpo, utilizando técnicas avanzadas para mejorar la apariencia de tu piel y promover el bienestar integral. Nuestro objetivo es ayudarte a sentirte renovada y confiada, cuidando cada detalle para brindarte una experiencia relajante y efectiva."
+          pick={esteticapick}
         />
         <CardTextAndPickRight
           title="Peluqueria"
           text="Déjate asesorar por nuestros expertos estilistas que trabajan para crear cortes, peinados y coloraciones que resaltan tu belleza natural. Desde un cambio de look moderno hasta un cuidado capilar nutritivo, nuestro equipo se encarga de transformar tu cabello con resultados vibrantes y de larga duración, siempre siguiendo las últimas tendencias."
+          pick={peluqueriapick}
         />
         <CardTextAndPickLeft
           title="Depilación"
           text="Ofrecemos una amplia gama de técnicas de depilación, desde cera tradicional hasta opciones más avanzadas, para lograr una piel suave, libre de vello y sin irritaciones. Nuestros tratamientos se adaptan a tus necesidades, asegurando comodidad y resultados duraderos, para que luzcas y sientas una piel impecable."
+          pick={depilacionpick}
         />
         <CardTextAndPickRight
           title="Microblanding y dermopigmentación en labios"
