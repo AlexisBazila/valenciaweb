@@ -7,6 +7,8 @@ import CardTextAndPickRight from "../../components/CardTextAndPickRight/CardText
 import esteticapick from "../../assets/images/esteticapick.jpg";
 import peluqueriapick from "../../assets/images/peluqueriapick.jpg";
 import depilacionpick from "../../assets/images/depilacionpick.jpg";
+import microbladingpick from "../../assets/images/microbladingpick.jpg";
+import maquillajepick from "../../assets/images/maquillajepick.jpg";
 
 function Estetica() {
   const paragraphs = [
@@ -36,10 +38,12 @@ function Estetica() {
         <CardTextAndPickRight
           title="Microblanding y dermopigmentación en labios"
           text="Realza la belleza de tus cejas y labios con técnicas precisas que garantizan un acabado natural y duradero. Nuestro servicio de microblading ofrece definición y volumen a tus cejas, mientras que la dermopigmentación en labios mejora su tono y contorno, proporcionando una apariencia fresca y sin necesidad de maquillaje diario."
+          pick={microbladingpick}
         />
         <CardTextAndPickLeft
           title="Maquillaje"
           text="Desde eventos especiales hasta maquillaje diario, nuestros profesionales te ofrecen looks personalizados que destacan tu belleza natural. Utilizamos productos de alta calidad y técnicas adaptadas a cada tipo de piel, asegurando un resultado impecable y duradero, ya sea para un día importante o una ocasión única."
+          pick={maquillajepick}
         />
       </div>
     </section>
