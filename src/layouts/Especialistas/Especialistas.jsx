@@ -16,20 +16,18 @@ function Especialistas() {
           <div className="parrafos">
             {" "}
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Blanditiis optio aperiam ipsa illo atque vitae accusamus
-              temporibus recusandae minus rerum veritatis voluptatum
-              repellendus, labore magnam quia quaerat inventore velit tempora.
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid
-              molestiae repudiandae nemo distinctio nostrum voluptatem sed,
-              reiciendis enim quas. Eum provident laudantium voluptate nesciunt
-              nemo molestiae veniam, ut asperiores consectetur!
+              En nuestro centro, cada miembro de nuestro equipo es un
+              profesional dedicado a realzar tu belleza y cuidar de tu
+              bienestar. Con amplia experiencia en sus respectivas áreas,
+              trabajan con pasión y compromiso para ofrecerte servicios de la
+              más alta calidad, adaptados a tus necesidades.
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
-              beatae officia, distinctio inventore reiciendis iure sequi cum aut
-              aliquam, voluptatibus repellendus numquam mollitia suscipit
-              nostrum fuga odit vitae soluta quo.
+              Nos enorgullece contar con especialistas que no solo dominan las
+              últimas tendencias y técnicas, sino que también están
+              comprometidos con brindar un trato cálido y personalizado.
+              ¡Descubre quiénes están detrás de cada detalle y transformación
+              que hacemos realidad!
             </p>
           </div>
         </div>
