@@ -1,0 +1,12 @@
+.HeroEscuela {
+  margin: 15vh 5% 10% 5%;
+  display: flex;
+  align-items: center;
+}
+.EscuelaHeroPick {
+  height: 400px;
+  width: 1000px;
+  border-radius: 150px 0;
+  background-color: grey;
+  margin-right: 15px;
+}
