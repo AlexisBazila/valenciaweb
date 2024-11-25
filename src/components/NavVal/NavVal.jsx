@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom"; // Importa el componente Link de React Router
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -10,20 +11,20 @@ const NavVal = () => {
     <div className="NavBarVal">
       <Navbar>
         <Container className="CointainerNav">
-          <Navbar.Brand href="#home">
-            <img src={LogoVal} className="LogoImg" alt="" />
+          <Navbar.Brand>
+            <img src={LogoVal} className="LogoImg" alt="Logo" />
           </Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link className="NavBarLink" href="#home">
+            <Nav.Link as={Link} className="NavBarLink" to="/">
               Home
             </Nav.Link>
-            <Nav.Link className="NavBarLink" href="#features">
+            <Nav.Link as={Link} className="NavBarLink" to="/nosotros">
               Nosotros
             </Nav.Link>
-            <Nav.Link className="NavBarLink" href="#pricing">
+            <Nav.Link as={Link} className="NavBarLink" to="/servicios">
               Servicios
             </Nav.Link>
-            <Nav.Link className="NavBarLink" href="#pricing">
+            <Nav.Link as={Link} className="NavBarLink" to="/escuela">
               Escuela
             </Nav.Link>
           </Nav>
