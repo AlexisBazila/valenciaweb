@@ -1,0 +1,8 @@
+.CursoSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.CursoTitleDiv {
+  width: 70%;
+}
