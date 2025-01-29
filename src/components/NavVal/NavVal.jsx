@@ -9,27 +9,30 @@ import "./NavVal.css";
 const NavVal = () => {
   return (
     <div className="NavBarVal">
-      <Navbar>
-        <Container className="CointainerNav">
-          <Navbar.Brand>
-            <img src={LogoVal} className="LogoImg" alt="Logo" />
-          </Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link as={Link} className="NavBarLink" to="/">
-              Home
-            </Nav.Link>
-            <Nav.Link as={Link} className="NavBarLink" to="/nosotros">
-              Nosotros
-            </Nav.Link>
-            <Nav.Link as={Link} className="NavBarLink" to="/servicios">
-              Servicios
-            </Nav.Link>
-            <Nav.Link as={Link} className="NavBarLink" to="/escuela">
-              Escuela
-            </Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
+      <Navbar expand="lg">
+  <Container className="CointainerNav">
+    <Navbar.Brand>
+      <img src={LogoVal} className="LogoImg" alt="Logo" />
+    </Navbar.Brand>
+    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+    <Navbar.Collapse id="basic-navbar-nav">
+      <Nav className="me-auto">
+        <Nav.Link as={Link} className="NavBarLink" to="/">
+          Home
+        </Nav.Link>
+        <Nav.Link as={Link} className="NavBarLink" to="/nosotros">
+          Nosotros
+        </Nav.Link>
+        <Nav.Link as={Link} className="NavBarLink" to="/servicios">
+          Servicios
+        </Nav.Link>
+        <Nav.Link as={Link} className="NavBarLink" to="/escuela">
+          Escuela
+        </Nav.Link>
+      </Nav>
+    </Navbar.Collapse>
+  </Container>
+</Navbar>
     </div>
   );
 };
