@@ -55,7 +55,9 @@
 .hero-image {
   margin-left: 80px;
 }
-
+.up{
+  display: none;
+}
 .ImgTest {
   height: 500px;
   width: 300px;
@@ -102,8 +104,20 @@
     max-width: 90vw
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 790px) {
   .ContainerHero {
-    
+flex-direction: column;
   }
+  .up{
+    display: block;
+  }
+  .down{
+    display: none;
+  }
+  .hero-image img {
+    height: 250px;
+     width: 150px;
+     border-radius: 300px 0px 300px 0px;
+     transform: rotate(10deg);
+   }
 }

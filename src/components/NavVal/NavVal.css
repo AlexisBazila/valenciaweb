@@ -59,4 +59,19 @@
   .NavBarLink {
     font-size: 18px;
   }
+
+  .NavBarLink::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -3px;
+    left: 0; /* Cambiado de 50% a 0 para empezar desde la izquierda */
+    background-color: #61386e;
+    transition: width 0.3s ease;
+  }
+  
+  .NavBarLink:hover::after {
+    width: 100%;
+  }
 }

@@ -9,6 +9,9 @@ const HomeHeroSection = () => {
       <div className="SubContainerHero">
         <section className="hero-section">
           <div className="ContainerHero">
+          <div className="hero-image up">
+              <img src={heroHome} alt="Instituto Valencia" /> 
+            </div>
             <div className="hero-content">
               <h2 className="hero-title">Cuidando tu belleza y bienestar</h2>
               <h1 className="hero-subtitle">INSTITUTO VALENCIA</h1>
@@ -24,9 +27,8 @@ const HomeHeroSection = () => {
               </p>
               <button className="hero-button">CONÓCENOS</button>
             </div>
-            <div className="hero-image">
+            <div className="hero-image down">
               <img src={heroHome} alt="Instituto Valencia" /> 
-              {/* <div className="ImgTest"></div> */}
             </div>
           </div>
         </section>
