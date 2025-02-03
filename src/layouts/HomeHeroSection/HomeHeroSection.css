@@ -76,6 +76,7 @@
   height: 90vh;
   border-radius: 0 0 190px 0;
   border-bottom: 10px solid rgb(97, 56, 110);
+  height: auto;
 }
 
 @media (max-height: 920px) {
@@ -114,12 +115,39 @@
     display: none;
   }
   .hero-image img {
-    height: 250px;
-    width: 150px;
+    height: 200px;
+    width: 120px;
     border-radius: 300px 0px 300px 0px;
     transform: rotate(10deg);
   }
   .hero-section {
     margin-top: 20px;
   }
+  .hero-title {
+    font-size: 25px;
+    margin-bottom: 7px;
+  }
+  
+.hero-subtitle {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+.hero-description {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.hero-content {
+  text-align: center;
+}
+.hero-section {
+  padding: 100px 0;
+  border-radius: 0 0 150px 150px;
+}
+
+.SubContainerHero {
+  height: auto;
+  border-radius: 0 0 150px 150px;
+  border-bottom: 10px solid rgb(97, 56, 110);
+  margin: 0 auto;
+}
 }
