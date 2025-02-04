@@ -87,7 +87,7 @@
     height: 91vh;
   }
 }
-@media (max-height: 760px) {
+@media (max-height: 768px) {
   .ContainerHero {
     height: 72vh;
   }
@@ -140,7 +140,7 @@
   text-align: center;
 }
 .hero-section {
-  padding: 100px 0;
+  padding-bottom: 100px;
   border-radius: 0 0 150px 150px;
 }
 
@@ -150,4 +150,9 @@
   border-bottom: 10px solid rgb(97, 56, 110);
   margin: 0 auto;
 }
+}
+@media (max-width: 660px) {
+  .ContainerHero {
+    height: auto;
+  }
 }
