@@ -22,3 +22,19 @@
     margin-top: 30px;
   }
 }
+@media (max-width: 1000px){
+  .TittleSection {
+    width: 120%;
+  }
+  .ContenedorServicios {
+    margin-top: 30px;
+}
+.SectionResumenServicios .PseudoIcon {
+  width: 60px;
+  height: 60px;
+}
+
+.ContenedorServicios{
+  width: 100%;
+}
+}

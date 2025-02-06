@@ -40,7 +40,7 @@
     align-items: center;
   }
   .ImgInstituto {
-    height: 80%;
+    height: auto;
     width: 80%;
     margin-right: 30px;
   }
@@ -53,7 +53,7 @@
   }
 }
 
-@media (max-height: 768px), (max-width: 1024px) {
+ {
   .ImgInstituto {
     margin-bottom: 50px;
   }
