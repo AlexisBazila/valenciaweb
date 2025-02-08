@@ -22,15 +22,19 @@
   border: 2px solid #20a2ad;
   border-radius: 180px 0 180px 0;
   margin-right: 30px;
+  margin-bottom: 30px;
 }
 
 @media (max-height: 920px) {
   .ResumenNosotros {
-    padding-top: 120px;
+    padding-top: 10%;
   }
   .ImgInstituto {
     height: 400px;
     width: 600px;
+  }
+  .ResumenNosotros {
+    justify-content:start;
   }
 }
 
