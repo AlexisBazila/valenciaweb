@@ -8,8 +8,8 @@ function Nosotros() {
   return (
     <>
       <HeroNosotros />
-      {/* <RigtBubleText />
-      <Destacado />
+      {/* <RigtBubleText /> */}
+      {/* <Destacado />
       <Reviews />
       <Equipo /> */}
     </>
