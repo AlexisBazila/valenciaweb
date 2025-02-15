@@ -8,13 +8,64 @@
   display: flex;
   margin-bottom: 50px;
   padding: 100px;
-  height: 85vh;
+  height: auto;
   border-radius: 500px 0 500px 500px;
 }
 
 .ImageBuble{
     margin-left: 30px;
     margin-right: 40px;
-
+  max-width: 500px;
     border-radius: 100% 0 0 100%;
+}
+
+@media (max-width:1100px){
+  .ImageBuble{
+    max-width: 400px;
+    max-height: 400px;
+  }
+  .Buble {
+    align-items: center;
+  }
+}
+
+@media (max-width:930px) {
+  .Buble {
+    flex-direction: column;
+  }
+  .ImageBuble{
+    border-radius: 200px 0 200px 200px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width:600px) {
+  .ImageBuble{
+    max-width: 300px;
+    max-height: 300px;
+    margin-top: 100px;
+    border-radius: 200px 0 200px 200px;
+  }
+  .Buble {
+    padding: 0;
+  }
+  .LeftAlignedParagraph {
+    padding: 0 70px 70px 70px;
+}
+}
+@media (max-width:500px) {
+  .ImageBuble{
+    margin-top: 50px;
+  }
+}
+@media (max-width:400px) {
+  .ImageBuble{
+    max-width: 250px;
+    max-height: 250px;
+    margin-top: 60px;
+    border-radius: 200px 0 200px 200px;
+  }
+  .LeftAlignedParagraph {
+    padding: 0 30px 30px 30px;
+}
 }
