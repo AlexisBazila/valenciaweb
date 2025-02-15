@@ -9,8 +9,8 @@ function Nosotros() {
     <>
       <HeroNosotros />
       <RigtBubleText />
-      {/* <Destacado />
-      <Reviews />
+      <Destacado />
+      {/* <Reviews />
       <Equipo /> */}
     </>
   );
