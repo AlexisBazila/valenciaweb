@@ -11,7 +11,7 @@ function Nosotros() {
       <RigtBubleText />
       <Destacado />
       <Reviews />
-      {/* <Equipo /> */}
+      <Equipo />
     </>
   );
 }
