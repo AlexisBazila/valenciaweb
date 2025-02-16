@@ -10,8 +10,8 @@ function Nosotros() {
       <HeroNosotros />
       <RigtBubleText />
       <Destacado />
-      {/* <Reviews />
-      <Equipo /> */}
+      <Reviews />
+      {/* <Equipo /> */}
     </>
   );
 }

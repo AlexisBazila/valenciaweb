@@ -7,6 +7,10 @@ import review1 from "../../assets/images/review1.jpg";
 import review2 from "../../assets/images/review2.jpg";
 import review3 from "../../assets/images/review3.jpg";
 import review4 from "../../assets/images/review4.jpg";
+import review12 from "../../assets/images/review1-2.jpg";
+import review22 from "../../assets/images/review2-2.jpg";
+import review32 from "../../assets/images/review3-2.jpg";
+import review42 from "../../assets/images/review4-2.jpg";
 
 function Reviews() {
   return (
@@ -19,7 +23,7 @@ function Reviews() {
           />
           {/* El div Carrousel debe de ser reemplazado por un carrousel de boostrap con imagenes de las reseñas de Google */}
           {/* Revisar posibilidad de traer los datos de forma directa */}
-          <div className="CarrouselReviews">
+          <div className="CarrouselReviews carrousel1">
             {/* <div className="ImgReviews"></div>
             <p>←    →</p> */}
             <Carousel
@@ -53,6 +57,45 @@ function Reviews() {
                 <img
                   className="d-block w-100"
                   src={review4}
+                  alt="First slide"
+                />
+              </Carousel.Item>
+            </Carousel>
+          </div>
+          <div className="CarrouselReviews carrousel2">
+            {/* <div className="ImgReviews"></div>
+            <p>←    →</p> */}
+            <Carousel
+              data-bs-theme="dark"
+              controls={false}
+              indicators={false}
+              slide={false}
+            >
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={review12}
+                  alt="First slide"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={review22}
+                  alt="First slide"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={review32}
+                  alt="First slide"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={review42}
                   alt="First slide"
                 />
               </Carousel.Item>

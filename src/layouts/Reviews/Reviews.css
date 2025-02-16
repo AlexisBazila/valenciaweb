@@ -30,4 +30,47 @@
   padding: 10px 0 10px 0;
   border-radius: 500px 0;
 }
-
+.carrousel2{
+  display: none;
+}
+@media (max-width:1100px) {
+  .ReviewsBuble {
+    border-radius: 300px 0;
+  }
+  .ReviewsBackGrond {
+    border-radius: 300px 0;
+  }
+  .CarrouselReviews {
+    width: 50vw;
+}
+}
+@media (max-width:1000px) {
+  .ReviewsBackGrond {
+    margin: 0; 
+}
+}
+@media (max-width:700px) {
+  .carrousel1{
+    display: none;
+  }
+  .carrousel2{
+    display: inherit;
+  }
+  .ReviewsBuble {
+    border-radius: 150px 0;
+  }
+  .ReviewsBackGrond {
+    border-radius: 150px 0;
+  }
+}
+@media (max-width:500px) {
+  .ReviewsBuble .WitheTittleAndParagraph h2{
+    font-size: 30px;
+  }
+  .ReviewsBuble .WitheTittleAndParagraph p{
+    font-size: 16px;
+  }
+  .ReviewsBuble .WitheTittleAndParagraph{
+    width:70%;
+  }
+}
