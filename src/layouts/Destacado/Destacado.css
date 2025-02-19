@@ -33,7 +33,7 @@
   width: 50vw;
   }
   .ContentDiv{
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.483);
     background-blend-mode: multiply;
   }
 }
@@ -48,4 +48,16 @@
   .ItemsImage div .IconItemListLeftDiv .IconItemListLeftIcon {
     max-width: 10vh;
 }
+
+}
+@media (max-width:1000px) {
+  .BackGroundDiv {
+    background-image: url("../../assets/images/hoja2-arriba-izquierda.png"),
+      url("../../assets/images/hoja1-arriba-derecha.png"),
+      url("../../assets/images/hoja1-bajo-izquierda.png"),
+      url("../../assets/images/hoja2-abajo-derecha.png");
+    background-position: top left, bottom right, 0% 60%, 100% 20%;
+    background-size: 200px 200px, 200px 200px, 150px 150px, 150px 150px;
+  
+  }
 }

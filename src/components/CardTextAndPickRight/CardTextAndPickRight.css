@@ -23,10 +23,11 @@
 }
 @media (max-width:768px) {
   .CardTextAndPickRight{
-    flex-direction: column;
+    flex-direction: column-reverse;
     text-align: center;
+    align-items: center
   }
-  .CardTextAndPickRights-Text {
+  .CardTextAndPickRight-Text {
     width: auto;
     text-align: center;
   }

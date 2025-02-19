@@ -9,7 +9,7 @@ function Servicios() {
     <>
       <HeroServicios />
       <Salud />
-      {/* <Estetica /> */}
+      <Estetica />
       <Especialistas />
     </>
   );
