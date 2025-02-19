@@ -20,3 +20,13 @@
 .CardTextAndPickLeft-Text p {
   font-family: "Junge", sans-serif;
 }
+
+@media (max-width:768px) {
+  .CardTextAndPickLeft{
+    flex-direction: column;
+    text-align: center;
+  }
+  .CardTextAndPickLeft-Text {
+    width: auto;
+  }
+}

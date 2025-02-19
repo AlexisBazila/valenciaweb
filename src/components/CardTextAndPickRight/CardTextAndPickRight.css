@@ -21,3 +21,13 @@
 .CardTextAndPickRight-Text p {
   font-family: "Junge", sans-serif;
 }
+@media (max-width:768px) {
+  .CardTextAndPickRight{
+    flex-direction: column;
+    text-align: center;
+  }
+  .CardTextAndPickRights-Text {
+    width: auto;
+    text-align: center;
+  }
+}
