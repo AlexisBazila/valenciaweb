@@ -1,79 +1,69 @@
 import React from "react";
 import "./FooterVal.css";
-import { CiFacebook, CiInstagram } from "react-icons/ci";
-import { FaWhatsapp } from "react-icons/fa";
-import { MdAlternateEmail } from "react-icons/md";
-import { SiGooglemaps } from "react-icons/si";
 import logoval from "../../assets/images/logoval.jpg";
-import socialmedia from "../../assets/images/socialmedia.svg";
-import contacto from "../../assets/images/contacto.svg";
+import logoAB from "../../assets/images/ABSistems.png";
+import { FaFacebookF, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 function FooterVal() {
   return (
-    <section className="SecFooter">
-      <div className="Footer">
-        <div className="LogoFooter">
-          <div className="ImgLogoFooter">
-            <img src={logoval} alt="" />
-          </div>
+    <footer className="FooterVal">
+      {/* Diseño con curva superior */}
+      <div className="FooterVal-Curve"></div>
+
+      <div className="FooterVal-Content">
+
+
+        {/* Sección de información */}
+        <div className="FooterVal-Info">
+                  {/* Sección del logo */}
+        <div className="FooterVal-Logo">
+          <img src={logoval} alt="Instituto Valencia" />
         </div>
-        <div className="RedesFooter">
-          <div className="IconoRedesFooter">
-            <img src={socialmedia} alt="" />
-            <p>SIGUENOS</p>
-          </div>
-          <div className="LinkRedesFooter">
-            <a href="" className="LinkRedes">
-              <i>
-                <CiFacebook />
-              </i>
-              FACEBOOK
-            </a>
-            <a href="" className="LinkRedes">
-              {" "}
-              <i>
-                <CiInstagram />
-              </i>
-              INSTAGRAM
-            </a>
-          </div>
+          <h3>Instituto Valencia</h3>
+          <p>Formación con excelencia y compromiso.</p>
         </div>
-        <div className="RedesFooter">
-          <div className="IconoContactoFooter">
-            <img src={contacto} alt="" />
-            <p>CONTACTANOS</p>
-          </div>
-          <div className="LinkRedesFooter">
-            <a href="" className="LinkContacto">
-              <i>
-                <FaWhatsapp />
-              </i>
-              +54 3755 1500000
-            </a>
-            <a href="" className="LinkContacto">
-              {" "}
-              <i>
-                <MdAlternateEmail />
-              </i>
-              miemail@valencia.com.ar
-            </a>
-            <a href="" className="LinkContacto">
-              {" "}
-              <i>
-                <SiGooglemaps />
-              </i>
-              Av. Italia ####
-            </a>
-          </div>
+
+        {/* Sección de enlaces */}
+        <div className="FooterVal-Links">
+          <h4>MAPA DEL SITIO</h4>
+          <ul>
+            <li><a href="#cursos">Home</a></li>
+            <li><a href="#cursos">Nosotros</a></li>
+            <li><a href="#nosotros">Servicios</a></li>
+            <li><a href="#contacto">Escuela</a></li>
+          </ul>
         </div>
-        <div className="LogoFooter">
-          <div className="ImgLogoFooter">
-            <img src={logoval} alt="" />
+
+        {/* Sección de redes sociales */}
+        <div className="FooterVal-Social">
+          <h4>REDES SOCIALES</h4>
+          <div className="FooterVal-SocialIcons">
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+              <FaFacebookF />
+            </a>
+            <a href="https://www.instagram.com/instituto.valencia/?hl=es" target="_blank" rel="noopener noreferrer">
+              <FaInstagram />
+            </a>
+            <a href="https://wa.me/+5493755232012" target="_blank" rel="noopener noreferrer">
+              <FaWhatsapp />
+            </a>
           </div>
         </div>
       </div>
-    </section>
+
+      {/* Copyright */}
+      <div className="FooterVal-Copyright">
+        <p>© {new Date().getFullYear()} Instituto Valencia. Todos los derechos reservados.</p>
+      </div>
+      <a href="https://github.com/AlexisBazila" target="_blank">
+      <div className="FooterAB-Logo">
+        <p>Desarrollado por</p>
+          <img src={logoAB} alt="AB Sistems" />
+        </div>
+        </a>
+    </footer>
   );
 }
 
 export default FooterVal;
+

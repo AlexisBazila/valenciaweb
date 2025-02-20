@@ -1,154 +1,123 @@
-.SecFooter {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 50px;
-}
-.Footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 300px;
-  width: 80vw;
+.FooterVal {
   background-color: #02a4b0;
-  border-radius: 0 400px 0 400px;
-}
-.LogoFooter {
-  height: 300px;
-  width: 300px;
-  border-radius: 0 50px 0 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.ImgLogoFooter {
-  height: 150px;
-  width: 150px;
-  background-color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 0 200px 0 200px;
-}
-
-.ImgLogoFooter img {
-  border-radius: 0 50px 0 50px;
-}
-.IconoRedesFooter {
-  height: 120px;
-  width: 120px;
-  text-align: center;
-  height: 180px;
-  padding: 5px;
-  border-right: 5px solid #fff;
-  margin-right: 10px;
-}
-
-.IconoRedesFooter P {
   color: #fff;
-  font-family: "Quicksand", sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  max-width: 150px;
+  padding: 50px 20px 20px;
   text-align: center;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
 }
 
-.RedesFooter {
+/* Diseño con curva superior */
+.FooterVal-Curve {
+  position: absolute;
+  top: -50px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #02a4b0;
+  border-radius: 50% 50% 0 0;
+  box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.FooterVal-Content {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.LinkRedesFooter {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+/* Sección del logo */
+.FooterVal-Logo img {
+  width: 70px;
+  height: auto;
+  border-radius: 0 50% 0 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
 }
 
-.LinkRedes {
+.FooterVal-Info, 
+.FooterVal-Links, 
+.FooterVal-Social {
+  flex: 1;
+  min-width: 250px;
+  margin: 10px;
+}
+
+.FooterVal-Info h3 {
+  font-size: 22px;
   color: #fff;
-  font-family: "Quicksand", sans-serif;
-  font-weight: 400;
-  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.FooterVal-Links h4,
+.FooterVal-Social h4 {
+  color: #fff;
+}
+
+.FooterVal-Links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.FooterVal-Links li {
+  margin: 5px 0;
+}
+
+.FooterVal-Links a {
+  color: #fff;
   text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.FooterVal-Links a:hover {
+  color: #61386e;
+}
+
+.FooterVal-SocialIcons {
   display: flex;
-  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  font-size: 22px;
 }
 
-.LinkRedes I {
-  font-size: 60px;
+.FooterVal-SocialIcons a {
+  color: #fff;
+  transition: transform 0.3s ease, color 0.3s ease;
 }
 
-.IconoContactoFooter {
-  height: 120px;
-  width: 170px;
-  text-align: center;
-  height: 180px;
-  padding: 5px;
-  border-right: 5px solid #fff;
-  margin-right: 10px;
-  margin-left: 50px;
+.FooterVal-SocialIcons a:hover {
+  transform: scale(1.2);
+  color: #61386e;
 }
-.IconoContactoFooter img {
-  height: 110px;
-  width: 100px;
+
+.FooterVal-Copyright {
+  margin-top: 20px;
+  font-size: 14px;
+  opacity: 0.8;
 }
-.IconoContactoFooter P {
-  color: #fff;
-  font-family: "Quicksand", sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  max-width: 200px;
-  text-align: center;
+.FooterAB-Logo img{
+  width: 30px;
 }
-.LinkContacto {
-  color: #fff;
-  font-family: "Quicksand", sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  text-decoration: none;
+.FooterAB-Logo p{
+  color: #000;
+  margin: 0;
+}
+.FooterAB-Logo{
+  width: 100%;
   display: flex;
-  align-items: center;
+  justify-content: end;
 }
-
-.LinkContacto I {
-  font-size: 50px;
-}
-
-@media (max-height: 920px), (max-width: 1570px){
-  .RedesFooter {
+/* Responsive */
+@media (max-width: 768px) {
+  .FooterVal-Content {
     flex-direction: column;
+    text-align: center;
   }
-  .LinkRedes I {
-    font-size: 30px;
-  }
-  .LinkRedes {
-    font-size: 15px;
-  }
-  .IconoRedesFooter {
-    height: 150px;
-    border-right: none;
-    border-bottom: 5px solid #fff;
-   margin-bottom: 10px;
-  }
-
-  .IconoRedesFooter P {
-    font-size: 18px;
-  }
-  .IconoContactoFooter {
-    height: 120px;
-    width: 100%;
-    margin-left: 0;
-    border-right: none;
-    border-bottom: 5px solid #fff;
-   margin-bottom: 10px;
-  }
-  .IconoContactoFooter img {
-    height: 80px;
-    width: 80px;
-  }
-  .IconoContactoFooter P {
-    font-size: 18px;
-  }
-  .LinkContacto I {
-    font-size: 30px;
+  
+  .FooterVal-SocialIcons {
+    justify-content: center;
   }
 }
