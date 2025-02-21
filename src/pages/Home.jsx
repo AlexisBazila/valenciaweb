@@ -5,6 +5,7 @@ import ResumenNosotros from "../layouts/ResumenNosotros/ResumenNosotros";
 import ResumenServicios from "../layouts/ResumenServicios/ResumenServicios";
 import SaludBelleza from "../layouts/SaludBelleza/SaludBelleza";
 import FooterVal from "../layouts/FooterVal/FooterVal";
+import HeroEscuela from "../layouts/HeroEscuela/HeroEscuela";
 
 const Home = () => {
   return (
@@ -14,7 +15,6 @@ const Home = () => {
       <SaludBelleza />
       <ResumenServicios />
       <ResumenNosotros />
- 
     </>
   );
 };

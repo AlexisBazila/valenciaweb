@@ -1,7 +1,7 @@
 import React from "react";
 import "./FooterVal.css";
 import logoval from "../../assets/images/logoval.jpg";
-import logoAB from "../../assets/images/ABSistems.png";
+import logoAB from "../../assets/images/ab.png";
 import { FaFacebookF, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 function FooterVal() {
@@ -11,14 +11,12 @@ function FooterVal() {
       <div className="FooterVal-Curve"></div>
 
       <div className="FooterVal-Content">
-
-
         {/* Sección de información */}
         <div className="FooterVal-Info">
-                  {/* Sección del logo */}
-        <div className="FooterVal-Logo">
-          <img src={logoval} alt="Instituto Valencia" />
-        </div>
+          {/* Sección del logo */}
+          <div className="FooterVal-Logo">
+            <img src={logoval} alt="Instituto Valencia" />
+          </div>
           <h3>Instituto Valencia</h3>
           <p>Formación con excelencia y compromiso.</p>
         </div>
@@ -55,12 +53,22 @@ function FooterVal() {
       <div className="FooterVal-Copyright">
         <p>© {new Date().getFullYear()} Instituto Valencia. Todos los derechos reservados.</p>
       </div>
-      <a href="https://github.com/AlexisBazila" target="_blank">
-      <div className="FooterAB-Logo">
-        <p>Desarrollado por</p>
-          <img src={logoAB} alt="AB Sistems" />
+       {/* Atribución de Freepik */}
+       <div className="FooterVal-Freepik">
+        <p>
+          Algunas imágenes fueron tomadas de <a href="https://www.freepik.es" target="_blank" rel="noopener noreferrer">Freepik</a>.
+        </p>
+      </div>
+
+      {/* Desarrollador */}
+      <a href="https://github.com/AlexisBazila" target="_blank" className="FooterAB-Link">
+        <div className="FooterAB-Logo">
+        <img src={logoAB} alt="AB Sistems" />
+          <p>powered by</p>
         </div>
-        </a>
+      </a>
+
+     
     </footer>
   );
 }

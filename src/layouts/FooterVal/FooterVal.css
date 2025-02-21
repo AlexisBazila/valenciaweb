@@ -98,18 +98,39 @@
   font-size: 14px;
   opacity: 0.8;
 }
-.FooterAB-Logo img{
+
+/* Sección desarrollador */
+.FooterAB-Link a{
+  text-decoration: none;
+}
+
+.FooterAB-Logo img {
   width: 30px;
 }
-.FooterAB-Logo p{
-  color: #000;
+
+.FooterAB-Logo p {
+  color: #fff;
   margin: 0;
 }
-.FooterAB-Logo{
-  width: 100%;
-  display: flex;
-  justify-content: end;
+
+
+/* Atribución de Freepik */
+.FooterVal-Freepik {
+  margin-top: 10px;
+  font-size: 12px;
+  opacity: 0.7;
 }
+
+.FooterVal-Freepik a {
+  color: #fff;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.FooterVal-Freepik a:hover {
+  color: #61386e;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .FooterVal-Content {
@@ -119,5 +140,10 @@
   
   .FooterVal-SocialIcons {
     justify-content: center;
+  }
+
+  .FooterAB-Logo {
+    justify-content: center;
+    margin-top: 10px;
   }
 }
