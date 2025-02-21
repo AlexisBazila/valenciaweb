@@ -55,6 +55,14 @@ const NavVal = () => {
               >
                 Escuela
               </Nav.Link>
+              <Nav.Link 
+                as={Link} 
+                className="NavBarLink" 
+                to="/contacto" 
+                onClick={() => setExpanded(false)}
+              >
+                Contactanos
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
