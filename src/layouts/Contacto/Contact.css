@@ -3,6 +3,7 @@
   padding: 60px 20px;
   position: relative;
   overflow: hidden;
+  color:#333333;
 }
 
 .contact-header {
@@ -11,11 +12,13 @@
 }
 
 .contact-header h2 {
+  color:#333333;
   font-size: 32px;
   margin-bottom: 10px;
 }
 
 .contact-header p {
+  color:#333333;
   font-size: 18px;
 }
 
@@ -72,11 +75,13 @@
 }
 
 .contact-map h3 {
+  color:#333333;
   font-size: 24px;
   margin-bottom: 10px;
 }
 
 .contact-map p {
+  color:#333333;
   font-size: 18px;
   display: flex;
   align-items: center;

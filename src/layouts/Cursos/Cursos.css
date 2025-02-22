@@ -1,0 +1,21 @@
+.CursosSection{
+    margin: 50px 10% 50px 10%;
+}
+.ContenedorCursos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.CursoCard{
+    margin: 5px;
+}
+.whatsapp-button {
+    background-color: #25D366 !important;
+    border-color: #25D366 !important;
+    color: white !important;
+  }
+  
+  .whatsapp-button:hover {
+    background-color: #1ebe5d !important;
+    border-color: #1ebe5d !important;
+  }
