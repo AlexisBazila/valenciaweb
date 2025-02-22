@@ -1,12 +1,13 @@
-import React from 'react'
-import HeroEscuela from '../layouts/HeroEscuela/HeroEscuela'
+import React from "react";
+import HeroEscuela from "../layouts/HeroEscuela/HeroEscuela";
 
 function Escuela() {
   return (
-   <>
-    <HeroEscuela/>
-   </>
-  )
+    <>
+      <HeroEscuela />
+      <p>test</p>
+    </>
+  );
 }
 
-export default Escuela
+export default Escuela;
