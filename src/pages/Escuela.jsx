@@ -5,7 +5,6 @@ function Escuela() {
   return (
     <>
       <HeroEscuela />
-      <p>test</p>
     </>
   );
 }
