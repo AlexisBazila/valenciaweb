@@ -17,48 +17,48 @@ const NavVal = () => {
             <img src={LogoVal} className="LogoImg" alt="Logo" />
           </Navbar.Brand>
           {/* Toggle del menú */}
-          <Navbar.Toggle 
-            aria-controls="basic-navbar-nav" 
-            onClick={() => setExpanded(expanded ? false : true)} 
+          <Navbar.Toggle
+            aria-controls="basic-navbar-nav"
+            onClick={() => setExpanded(expanded ? false : true)}
           />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link 
-                as={Link} 
-                className="NavBarLink" 
-                to="/" 
+              <Nav.Link
+                as={Link}
+                className="NavBarLink"
+                to="/"
                 onClick={() => setExpanded(false)}
               >
                 Home
               </Nav.Link>
-              <Nav.Link 
-                as={Link} 
-                className="NavBarLink" 
-                to="/nosotros" 
+              <Nav.Link
+                as={Link}
+                className="NavBarLink"
+                to="/nosotros"
                 onClick={() => setExpanded(false)}
               >
                 Nosotros
               </Nav.Link>
-              <Nav.Link 
-                as={Link} 
-                className="NavBarLink" 
-                to="/servicios" 
+              <Nav.Link
+                as={Link}
+                className="NavBarLink"
+                to="/servicios"
                 onClick={() => setExpanded(false)}
               >
                 Servicios
               </Nav.Link>
-              <Nav.Link 
-                as={Link} 
-                className="NavBarLink" 
-                to="/escuela" 
+              <Nav.Link
+                as={Link}
+                className="NavBarLink"
+                to="/escuela"
                 onClick={() => setExpanded(false)}
               >
                 Escuela
               </Nav.Link>
-              <Nav.Link 
-                as={Link} 
-                className="NavBarLink" 
-                to="/contacto" 
+              <Nav.Link
+                as={Link}
+                className="NavBarLink"
+                to="/contactanos"
                 onClick={() => setExpanded(false)}
               >
                 Contactanos
@@ -72,4 +72,3 @@ const NavVal = () => {
 };
 
 export default NavVal;
-

@@ -7,8 +7,8 @@ import FooterVal from "./layouts/FooterVal/FooterVal";
 import Home from "./pages/Home";
 import Nosotros from "./pages/Nosotros";
 import Servicios from "./pages/Servicios";
-import Contacto from "./pages/Contacto";
 import Escuela from "./pages/Escuela";
+import Contactanos from "./pages/Contactanos";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
         <Route path="/nosotros" element={<Nosotros />} />
         <Route path="/servicios" element={<Servicios />} />
         <Route path="/escuela" element={<Escuela />} />
-        <Route path="/contacto" element={<Contacto />} />
+        <Route path="/contactanos" element={<Contactanos />} />
       </Routes>
       <FooterVal />
     </Router>
