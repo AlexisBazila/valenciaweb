@@ -1,0 +1,66 @@
+.Certificate {
+  margin: 50px 0 50px 0;
+}
+.CertificateBuble {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 400px 0;
+  background-color: #02a4b0;
+}
+
+.CertificateBackGrond {
+  background-color: #61386e;
+  margin: 0 10% 0 10%;
+  padding: 10px 0 10px 0;
+  border-radius: 400px 0;
+}
+
+.CertificadoImg {
+  width: 65%;
+  margin: 2% 5% 15% 5%;
+  border-radius: 5%;
+}
+
+@media (max-width: 1100px) {
+  .CertificadoImg {
+    width: 65%;
+    margin: 0 5% 10% 5%;
+  }
+  .CertificateBackGrond {
+    margin: 0;
+  }
+}
+@media (max-width: 1000px) {
+  .CertificateBackGrond {
+    border-radius: 200px 0;
+  }
+  .CertificateBuble {
+    border-radius: 200px 0;
+  }
+  .CertificadoImg {
+    width: 70%;
+  }
+  .WitheTittleAndParagraph h2 {
+    font-size: 30px;
+  }
+  .WitheTittleAndParagraph p {
+    font-size: 18px;
+  }
+  .WitheTittleAndParagraph {
+    width: 90%;
+  }
+}
+@media (max-width: 500px) {
+  .CertificadoImg {
+    width: 70%;
+    margin: 0 5% 15% 5%;
+  }
+  .CertificateBackGrond {
+    border-radius: 150px 0;
+  }
+  .CertificateBuble {
+    border-radius: 150px 0;
+  }
+}
