@@ -1,5 +1,5 @@
 import React from "react";
-import "./ontact.css";
+import "./Contact.css";
 
 import {
   FaFacebookF,
