@@ -1,8 +1,8 @@
 import React from "react";
 
-import "./Reviews.css";
 import WitheTittleAndParagraph from "../../components/WitheTittleAndParagraph/WitheTittleAndParagraph";
 import Carousel from "react-bootstrap/Carousel";
+
 import review1 from "../../assets/images/review1.jpg";
 import review2 from "../../assets/images/review2.jpg";
 import review3 from "../../assets/images/review3.jpg";
@@ -11,6 +11,8 @@ import review12 from "../../assets/images/review1-2.jpg";
 import review22 from "../../assets/images/review2-2.jpg";
 import review32 from "../../assets/images/review3-2.jpg";
 import review42 from "../../assets/images/review4-2.jpg";
+
+import "./Reviews.css";
 
 function Reviews() {
   return (

@@ -1,5 +1,4 @@
-/*LEFT ALIGNED PARAGRAPH CSS*/
-.CenterAlignedParagraph{
+.CenterAlignedParagraph {
   margin-bottom: 50px;
 }
 .CenterAlignedParagraph h2 {
@@ -15,6 +14,7 @@
   text-align: center;
 }
 
+/* Responsive */
 @media (max-height: 900px), (max-width: 1570px) {
   .CenterAlignedParagraph p {
     margin-top: 3px;
@@ -50,5 +50,4 @@
   .CenterAlignedParagraph {
     margin-bottom: 25px;
   }
-
 }

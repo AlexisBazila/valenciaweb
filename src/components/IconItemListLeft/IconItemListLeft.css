@@ -6,13 +6,14 @@
   margin-top: 5px;
   color: rgb(51, 51, 51);
   font-family: "Junge", cursive;
-max-width: 70vh;
+  max-width: 70vh;
 }
 
-.IconItemListLeftIcon{
-  margin-right: 15px ;
+.IconItemListLeftIcon {
+  margin-right: 15px;
   max-width: 10%;
 }
-.IconItemListLeftTitle{
+
+.IconItemListLeftTitle {
   margin-bottom: 10px;
 }

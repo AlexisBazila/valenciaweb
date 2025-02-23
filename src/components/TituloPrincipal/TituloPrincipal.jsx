@@ -1,5 +1,6 @@
 import React from "react";
 import "./TituloPrincipal.css";
+
 function TituloPrincipal({ titulo, subTitulo }) {
   return (
     <div>

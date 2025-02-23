@@ -1,16 +1,16 @@
 .SubContainerResumenNosotros {
-  height: 85vh;
   background-color: #20a2ad;
 }
+
 .ContainerResumenNosotros {
-  height: 85vh;
   background-color: #ffffff;
   border-radius: 200px 0 0 0;
   display: flex;
   justify-content: center;
 }
+
 .ResumenNosotros {
-  padding-top: 150px;
+  padding-top: 120px;
   display: flex;
   justify-content: center;
   width: 80vw;
@@ -25,16 +25,14 @@
   margin-bottom: 30px;
 }
 
+/* Responsive */
 @media (max-height: 920px) {
-  .ResumenNosotros {
-    padding-top: 50px;
-  }
   .ImgInstituto {
     height: 400px;
     width: 600px;
   }
   .ResumenNosotros {
-    justify-content:start;
+    justify-content: start;
   }
 }
 
@@ -49,22 +47,12 @@
     margin-right: 30px;
   }
   .SubContainerResumenNosotros {
-    height: 100vh;
-    margin-bottom: 50px;
-  }
-  .ContainerResumenNosotros {
-    height: 100vh;
-  }
-}
-
- {
-  .ImgInstituto {
     margin-bottom: 50px;
   }
 }
 
-@media (max-height: 685px) {
-  .SubContainerResumenNosotros {
-    margin-bottom: 70px;
+@media (max-width: 685px) {
+  .ResumenNosotros {
+    padding-top: 50px;
   }
 }

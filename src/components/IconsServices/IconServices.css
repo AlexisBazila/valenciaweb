@@ -39,20 +39,21 @@
   animation: scaleUp 0.3s forwards;
 }
 
-@media (max-height: 920px) , (max-width: 1530px){
-  .IconServices{
+/* Responsive */
+@media (max-height: 920px), (max-width: 1530px) {
+  .IconServices {
     margin: 30px;
   }
 }
 @media (max-width: 1260px) {
-  .IconServices{
+  .IconServices {
     margin: 15px;
   }
 }
 
-@media (max-height: 768px),(max-width: 1024px) {
+@media (max-height: 768px), (max-width: 1024px) {
   .PseudoIcon {
     width: 100px;
     height: 100px;
   }
-  }
+}

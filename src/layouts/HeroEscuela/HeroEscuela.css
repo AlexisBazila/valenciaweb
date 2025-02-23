@@ -1,38 +1,42 @@
-.SectionEscuela{
-    padding: 100px 5% 5% 5%;
+.SectionEscuela {
+  padding: 100px 5% 5% 5%;
 }
-.DivEscuela{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.ImgEscuela{
-    width: 50%;
-    border: 2px solid #02A4B0 ;
-    border-radius: 50% 0 50% 0;
-    margin-right: 2%;
-}
-@media (max-width:1100px) {
-    div div .Title{
-        font-size: 30px;
-      }
-      div div .SubTitle {
-        font-size: 20px;
-      }
 
+.DivEscuela {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-@media (max-width:1000px) {
-    .DivEscuela{
-flex-direction: column;
-    }
-    div div .Title{
-        text-align: center;
-      }
-      div div .SubTitle {
-        text-align: center;
-      }
-      .ImgEscuela{
-        width: 80%;
-        margin-bottom: 5%;
-    }
+
+.ImgEscuela {
+  width: 50%;
+  border: 2px solid #02a4b0;
+  border-radius: 50% 0 50% 0;
+  margin-right: 2%;
+}
+
+/* Responsive */
+@media (max-width: 1100px) {
+  div div .Title {
+    font-size: 30px;
+  }
+  div div .SubTitle {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .DivEscuela {
+    flex-direction: column;
+  }
+  div div .Title {
+    text-align: center;
+  }
+  div div .SubTitle {
+    text-align: center;
+  }
+  .ImgEscuela {
+    width: 80%;
+    margin-bottom: 5%;
+  }
 }

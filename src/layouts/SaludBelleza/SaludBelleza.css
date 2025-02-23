@@ -2,24 +2,28 @@
   height: 85vh;
   background-color: #20a2ad;
 }
+
 .ContainerSaludBelleza {
   height: 85vh;
   background-color: #ffffff;
   border-radius: 0 0 0 200px;
-    display: flex;
+  display: flex;
   justify-content: center;
 }
+
 .SaludBelleza {
   margin: 50px;
   width: 80%;
   display: flex;
   justify-content: center;
 }
+
 .ImgSaludBelleza {
   height: 75vh;
 }
 
-@media (max-height: 920px) , (max-width: 1570px) {
+/* Responsive */
+@media (max-height: 920px), (max-width: 1570px) {
   .ImgSaludBelleza {
     height: 70vh;
   }
@@ -30,6 +34,7 @@
     height: 60vh;
   }
 }
+
 @media (max-width: 1260px) {
   .ImgSaludBelleza {
     height: 50vh;
@@ -38,6 +43,7 @@
     align-items: center;
   }
 }
+
 @media (max-width: 1160px) {
   .ImgSaludBelleza {
     height: 50vh;
@@ -56,5 +62,4 @@
     width: 40vw;
     margin: 0;
   }
-
 }

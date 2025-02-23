@@ -1,7 +1,10 @@
 import React from "react";
-import "./SaludBelleza.css";
+
 import LeftAlignedParagraph from "../../components/LeftAlignedParagraph/LeftAlignedParagraph";
+
 import saludbelleza from "../../assets/images/saludbelleza.jpg";
+
+import "./SaludBelleza.css";
 
 const SaludBelleza = () => {
   const paragraphs = [

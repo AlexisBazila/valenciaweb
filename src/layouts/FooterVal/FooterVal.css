@@ -38,8 +38,8 @@
   margin-bottom: 15px;
 }
 
-.FooterVal-Info, 
-.FooterVal-Links, 
+.FooterVal-Info,
+.FooterVal-Links,
 .FooterVal-Social {
   flex: 1;
   min-width: 250px;
@@ -50,6 +50,8 @@
   font-size: 22px;
   color: #fff;
   margin-bottom: 10px;
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 400;
 }
 
 .FooterVal-Links h4,
@@ -100,7 +102,7 @@
 }
 
 /* Sección desarrollador */
-.FooterAB-Link a{
+.FooterAB-Link a {
   text-decoration: none;
 }
 
@@ -112,7 +114,6 @@
   color: #fff;
   margin: 0;
 }
-
 
 /* Atribución de Freepik */
 .FooterVal-Freepik {
@@ -137,7 +138,7 @@
     flex-direction: column;
     text-align: center;
   }
-  
+
   .FooterVal-SocialIcons {
     justify-content: center;
   }

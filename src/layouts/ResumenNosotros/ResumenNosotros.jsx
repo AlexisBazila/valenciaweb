@@ -1,7 +1,10 @@
 import React from "react";
-import "./ResumenNosotros.css";
+
 import LeftAlignedParagraph from "../../components/LeftAlignedParagraph/LeftAlignedParagraph";
-import instituto from '../../assets/images/instituto.jpg'
+
+import instituto from "../../assets/images/instituto.jpg";
+
+import "./ResumenNosotros.css";
 
 const ResumenNosotros = () => {
   const paragraphs = [

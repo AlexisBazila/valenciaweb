@@ -1,7 +1,8 @@
 import React from "react";
-import "./Equipo.css";
+
 import CenterAlignedParagraph from "../../components/CenterAlignedParagraph/CenterAlignedParagraph";
 import CardCirclePick from "../../components/CardCirclePick/CardCirclePick";
+
 import mariana from "../../assets/images/mariana.jpg";
 import karina from "../../assets/images/karina.jpg";
 import andrea from "../../assets/images/andrea.jpg";
@@ -13,8 +14,9 @@ import podologia from "../../assets/images/podologia.svg";
 import masaje from "../../assets/images/masaje.svg";
 import cosmetologia from "../../assets/images/cosmetologia.svg";
 import dermatocosmiatria from "../../assets/images/dermatocosmiatria.svg";
-
 import lashista from "../../assets/images/lashista.svg";
+
+import "./Equipo.css";
 
 function Equipo() {
   let paragraph = [

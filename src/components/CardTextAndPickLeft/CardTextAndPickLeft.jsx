@@ -5,7 +5,7 @@ function CardTextAndPickLeft({ pick, title, text }) {
   return (
     <div className="CardTextAndPickLeft">
       <div>
-        <img src={pick} alt="" className="CardTextAndPickLeft-Pick" />
+        <img src={pick} alt={title} className="CardTextAndPickLeft-Pick" />
       </div>
       <div className="CardTextAndPickLeft-Text">
         <h3>{title}</h3>
