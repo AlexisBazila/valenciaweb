@@ -3,7 +3,7 @@ import "./Certificate.css";
 
 import WitheTittleAndParagraph from "../../components/WitheTittleAndParagraph/WitheTittleAndParagraph";
 
-import Certificado from "../../assets/images/CertificadoTest.png";
+import Certificado from "../../assets/images/Certificado.jpg";
 
 function Certificate() {
   return (
