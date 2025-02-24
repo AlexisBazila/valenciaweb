@@ -11,13 +11,17 @@
   padding: 20px;
   z-index: 1;
 }
-.TituloEstetica{
-    margin: 0 10%;
+
+.TituloEstetica {
+  margin: 0 10%;
 }
-.OpcionesEstetica{
+
+.OpcionesEstetica {
   margin: 5% 10%;
 }
-@media (max-width:1000px) {
+
+/* Responsive */
+@media (max-width: 1000px) {
   .EsteticaSection {
     background-image: url("../../assets/images/hoja2-arriba-izquierda.png"),
       url("../../assets/images/hoja2-arriba-derecha.png"),
@@ -26,7 +30,9 @@
       url("../../assets/images/hoja2-abajo-derecha.png"),
       url("../../assets/images/hoja1-bajo-izquierda.png"),
       url("../../assets/images/hoja2-arriba-derecha.png");
-    background-position: 0% 5%, top right, bottom right, 0% 90%, center right,  0% 20%, 100% 70%;
-    background-size: 100px 100px, 100px 100px, 100px 100px, 100px 100px, 110px 110px, 200px 200px, 120px 120px;
+    background-position: 0% 5%, top right, bottom right, 0% 90%, center right,
+      0% 20%, 100% 70%;
+    background-size: 100px 100px, 100px 100px, 100px 100px, 100px 100px,
+      110px 110px, 200px 200px, 120px 120px;
   }
 }

@@ -3,8 +3,9 @@
   padding: 15px 0 0 0;
   border-radius: 500px 0 500px 500px;
 }
+
 .Buble {
-  background-color: #02A4B0;
+  background-color: #02a4b0;
   display: flex;
   margin-bottom: 50px;
   padding: 100px;
@@ -12,15 +13,16 @@
   border-radius: 500px 0 500px 500px;
 }
 
-.ImageBuble{
-    margin-left: 30px;
-    margin-right: 40px;
+.ImageBuble {
+  margin-left: 30px;
+  margin-right: 40px;
   max-width: 500px;
-    border-radius: 100% 0 0 100%;
+  border-radius: 100% 0 0 100%;
 }
 
-@media (max-width:1100px){
-  .ImageBuble{
+/* Responsive */
+@media (max-width: 1100px) {
+  .ImageBuble {
     max-width: 400px;
     max-height: 400px;
   }
@@ -29,18 +31,18 @@
   }
 }
 
-@media (max-width:930px) {
+@media (max-width: 930px) {
   .Buble {
     flex-direction: column;
   }
-  .ImageBuble{
+  .ImageBuble {
     border-radius: 200px 0 200px 200px;
     margin-bottom: 30px;
   }
 }
 
-@media (max-width:600px) {
-  .ImageBuble{
+@media (max-width: 600px) {
+  .ImageBuble {
     max-width: 300px;
     max-height: 300px;
     margin-top: 100px;
@@ -51,15 +53,17 @@
   }
   .LeftAlignedParagraph {
     padding: 0 70px 70px 70px;
+  }
 }
-}
-@media (max-width:500px) {
-  .ImageBuble{
+
+@media (max-width: 500px) {
+  .ImageBuble {
     margin-top: 50px;
   }
 }
-@media (max-width:400px) {
-  .ImageBuble{
+
+@media (max-width: 400px) {
+  .ImageBuble {
     max-width: 250px;
     max-height: 250px;
     margin-top: 60px;
@@ -67,5 +71,5 @@
   }
   .LeftAlignedParagraph {
     padding: 0 30px 30px 30px;
-}
+  }
 }

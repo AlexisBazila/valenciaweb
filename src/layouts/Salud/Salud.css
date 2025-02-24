@@ -1,6 +1,7 @@
 .Salud {
   margin: 50px 0 50px 0;
 }
+
 .SaludBuble {
   display: flex;
   flex-direction: column;
@@ -10,7 +11,6 @@
   background-color: #02a4b0;
 }
 
-
 .SaludBackGrond {
   background-color: #61386e;
   margin: 0 10% 0 10%;
@@ -18,42 +18,44 @@
   border-radius: 400px 0;
 }
 
-.SaludCards{
-    display: flex;
+.SaludCards {
+  display: flex;
 }
 
-@media (max-width:1100px) {
+/* Responsive */
+@media (max-width: 1100px) {
   .SaludBackGrond {
     margin: 0;
   }
 }
-@media (max-width:1000px) {
-  .SaludCards .Text h3{
+
+@media (max-width: 1000px) {
+  .SaludCards .Text h3 {
     font-size: 25px;
   }
-  .SaludCards .Text p{
+  .SaludCards .Text p {
     font-size: 16px;
   }
   .SaludCards {
     flex-direction: column;
-}
-div .CardTextAndPick {
-  margin-bottom: 0;
-  text-align: center;
-  max-width: 400px;
-}
-.SaludBuble {
-  padding-bottom: 100px;
-  padding-top: 50px;
-}
-.WitheTittleAndParagraph {
-  width: 70%;
-  margin-bottom: 50px;
-}
-.SaludBackGrond {
-  border-radius: 200px 0;
-}
-.SaludBuble {
-  border-radius: 200px 0;
-}
+  }
+  div .CardTextAndPick {
+    margin-bottom: 0;
+    text-align: center;
+    max-width: 400px;
+  }
+  .SaludBuble {
+    padding-bottom: 100px;
+    padding-top: 50px;
+  }
+  .WitheTittleAndParagraph {
+    width: 70%;
+    margin-bottom: 50px;
+  }
+  .SaludBackGrond {
+    border-radius: 200px 0;
+  }
+  .SaludBuble {
+    border-radius: 200px 0;
+  }
 }

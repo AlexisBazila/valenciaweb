@@ -1,16 +1,13 @@
 import React from "react";
-import NavVal from "../components/NavVal/NavVal"
+
 import HomeHeroSection from "../layouts/HomeHeroSection/HomeHeroSection";
 import ResumenNosotros from "../layouts/ResumenNosotros/ResumenNosotros";
 import ResumenServicios from "../layouts/ResumenServicios/ResumenServicios";
 import SaludBelleza from "../layouts/SaludBelleza/SaludBelleza";
-import FooterVal from "../layouts/FooterVal/FooterVal";
-import HeroEscuela from "../layouts/HeroEscuela/HeroEscuela";
 
 const Home = () => {
   return (
     <>
-      
       <HomeHeroSection />
       <SaludBelleza />
       <ResumenServicios />

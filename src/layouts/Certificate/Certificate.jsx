@@ -1,9 +1,10 @@
 import React from "react";
-import "./Certificate.css";
 
 import WitheTittleAndParagraph from "../../components/WitheTittleAndParagraph/WitheTittleAndParagraph";
 
 import Certificado from "../../assets/images/Certificado.jpg";
+
+import "./Certificate.css";
 
 function Certificate() {
   return (

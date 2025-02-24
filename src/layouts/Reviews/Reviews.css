@@ -1,6 +1,7 @@
 .Reviews {
   margin: 50px 0 50px 0;
 }
+
 .ReviewsBuble {
   display: flex;
   flex-direction: column;
@@ -17,6 +18,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .ImgReviews {
   background-color: gray;
   height: 200px;
@@ -30,10 +32,13 @@
   padding: 10px 0 10px 0;
   border-radius: 500px 0;
 }
-.carrousel2{
+
+.carrousel2 {
   display: none;
 }
-@media (max-width:1100px) {
+
+/* Responsive */
+@media (max-width: 1100px) {
   .ReviewsBuble {
     border-radius: 300px 0;
   }
@@ -42,18 +47,20 @@
   }
   .CarrouselReviews {
     width: 50vw;
+  }
 }
-}
-@media (max-width:1000px) {
+
+@media (max-width: 1000px) {
   .ReviewsBackGrond {
-    margin: 0; 
+    margin: 0;
+  }
 }
-}
-@media (max-width:700px) {
-  .carrousel1{
+
+@media (max-width: 700px) {
+  .carrousel1 {
     display: none;
   }
-  .carrousel2{
+  .carrousel2 {
     display: inherit;
   }
   .ReviewsBuble {
@@ -63,14 +70,15 @@
     border-radius: 150px 0;
   }
 }
-@media (max-width:500px) {
-  .ReviewsBuble .WitheTittleAndParagraph h2{
+
+@media (max-width: 500px) {
+  .ReviewsBuble .WitheTittleAndParagraph h2 {
     font-size: 30px;
   }
-  .ReviewsBuble .WitheTittleAndParagraph p{
+  .ReviewsBuble .WitheTittleAndParagraph p {
     font-size: 16px;
   }
-  .ReviewsBuble .WitheTittleAndParagraph{
-    width:70%;
+  .ReviewsBuble .WitheTittleAndParagraph {
+    width: 70%;
   }
 }

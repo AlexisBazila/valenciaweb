@@ -1,9 +1,12 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+
 import LogoVal from "../../assets/images/logoval.jpg";
+
 import "./NavVal.css";
 
 const NavVal = () => {
@@ -16,7 +19,6 @@ const NavVal = () => {
           <Navbar.Brand>
             <img src={LogoVal} className="LogoImg" alt="Logo" />
           </Navbar.Brand>
-          {/* Toggle del menú */}
           <Navbar.Toggle
             aria-controls="basic-navbar-nav"
             onClick={() => setExpanded(expanded ? false : true)}

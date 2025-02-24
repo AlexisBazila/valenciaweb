@@ -1,9 +1,11 @@
 import React from "react";
-import "./HeroServicios.css";
+
 import CircularBorderImage from "../../components/CircularBorderImage/CircularBorderImage";
 import TituloPrincipal from "../../components/TituloPrincipal/TituloPrincipal";
 
 import servicios from "../../assets/images/servicios.jpg";
+
+import "./HeroServicios.css";
 
 function HeroServicios() {
   return (

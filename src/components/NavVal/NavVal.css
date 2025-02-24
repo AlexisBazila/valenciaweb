@@ -1,4 +1,3 @@
-/*************************** NavBar CSS ********************************/
 .NavBarVal {
   width: 100%;
   max-height: 70px;
@@ -9,6 +8,7 @@
   background-color: #fff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
+
 .CointainerNav {
   display: flex;
   justify-content: space-between;
@@ -17,6 +17,7 @@
   margin: 0 auto;
   padding: 0 20px;
 }
+
 .NavBarLink {
   margin: 10px;
   font-family: "Quicksand", sans-serif;
@@ -27,6 +28,7 @@
   display: inline-block;
   transition: color 0.3s ease;
 }
+
 .NavBarLink::after {
   content: "";
   position: absolute;
@@ -46,11 +48,13 @@
   width: 100%;
   left: 0;
 }
+
 .LogoImg {
   max-width: 50px;
   height: auto;
 }
 
+/* Responsive */
 @media (max-width: 1024px) {
   .NavBarVal {
     max-height: none;
@@ -58,7 +62,6 @@
   .NavBarLink {
     font-size: 18px;
   }
-
   .NavBarLink::after {
     content: "";
     position: absolute;
@@ -69,16 +72,14 @@
     background-color: #61386e;
     transition: width 0.3s ease;
   }
-
   .NavBarLink:hover::after {
     width: 100%;
   }
-
-
 }
+
 @media (max-height: 700px) {
   .LogoImg {
     max-width: 40px;
     height: auto;
-}
+  }
 }

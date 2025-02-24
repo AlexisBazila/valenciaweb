@@ -1,18 +1,19 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "./HomeHeroSection.css"; // Importa los estilos CSS para la sección
+
 import heroHome from "../../assets/images/heroHome.jpg";
+
+import "./HomeHeroSection.css";
 
 const HomeHeroSection = () => {
   const navigate = useNavigate();
   return (
     <>
-    {/* Revisar este hero y replicar lo realizado en Reviews en cuanto a los bordes para evitar tantos cambios en el responsive */}
       <div className="SubContainerHero">
         <section className="hero-section">
           <div className="ContainerHero">
-          <div className="hero-image up">
-              <img src={heroHome} alt="Instituto Valencia" /> 
+            <div className="hero-image up">
+              <img src={heroHome} alt="Instituto Valencia" />
             </div>
             <div className="hero-content">
               <h2 className="hero-title">Cuidando tu belleza y bienestar</h2>
@@ -27,10 +28,15 @@ const HomeHeroSection = () => {
                 hacer que te sientas como en casa. ¡Te esperamos con los brazos
                 abiertos!
               </p>
-              <button className="hero-button" onClick={() => navigate("/nosotros")}>CONÓCENOS</button>
+              <button
+                className="hero-button"
+                onClick={() => navigate("/nosotros")}
+              >
+                CONÓCENOS
+              </button>
             </div>
             <div className="hero-image down">
-              <img src={heroHome} alt="Instituto Valencia" /> 
+              <img src={heroHome} alt="Instituto Valencia" />
             </div>
           </div>
         </section>

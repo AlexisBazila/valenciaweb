@@ -3,15 +3,18 @@
   justify-content: center;
   margin-top: 3%;
 }
+
 .CardTextAndPickLeft-Pick {
   max-height: 200px;
   max-width: 200px;
 }
+
 .CardTextAndPickLeft-Text {
   margin: 5px;
   width: 80%;
   color: #333333;
 }
+
 .CardTextAndPickLeft-Text h3 {
   font-family: "Quicksand", sans-serif;
   font-weight: 400;
@@ -21,8 +24,9 @@
   font-family: "Junge", sans-serif;
 }
 
-@media (max-width:768px) {
-  .CardTextAndPickLeft{
+/* Responsive */
+@media (max-width: 768px) {
+  .CardTextAndPickLeft {
     flex-direction: column;
     text-align: center;
   }

@@ -4,7 +4,7 @@ import "./CardTextAndPick.css";
 function CardTextAndPick({ tittle, description, pick }) {
   return (
     <div className="CardTextAndPick">
-      <img src={pick} alt="" className="Pick" />
+      <img src={pick} alt={tittle} className="Pick" />
       <div className="Text">
         <h3>{tittle}</h3>
         <p>{description}</p>

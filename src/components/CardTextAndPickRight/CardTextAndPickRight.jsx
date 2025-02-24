@@ -8,7 +8,7 @@ function CardTextAndPickRight({ pick, title, text }) {
         <h3>{title}</h3>
         <p>{text}</p>
       </div>
-      <img src={pick} alt="" className="CardTextAndPickRight-Pick" />
+      <img src={pick} alt={title} className="CardTextAndPickRight-Pick" />
     </div>
   );
 }

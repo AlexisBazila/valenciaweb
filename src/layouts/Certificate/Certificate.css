@@ -1,6 +1,7 @@
 .Certificate {
   margin: 50px 0 50px 0;
 }
+
 .CertificateBuble {
   display: flex;
   flex-direction: column;
@@ -23,6 +24,7 @@
   border-radius: 5%;
 }
 
+/* Responsive */
 @media (max-width: 1100px) {
   .CertificadoImg {
     width: 65%;
@@ -52,6 +54,7 @@
     width: 90%;
   }
 }
+
 @media (max-width: 500px) {
   .CertificadoImg {
     width: 70%;

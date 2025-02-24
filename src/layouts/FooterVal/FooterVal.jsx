@@ -1,9 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./FooterVal.css";
+
 import logoval from "../../assets/images/logoval.jpg";
 import logoAB from "../../assets/images/ab.png";
 import { FaFacebookF, FaInstagram, FaWhatsapp } from "react-icons/fa";
+
+import "./FooterVal.css";
 
 function FooterVal() {
   return (
@@ -38,6 +40,9 @@ function FooterVal() {
             <li>
               <Link to="/escuela">Escuela</Link>
             </li>
+            <li>
+              <Link to="/contactanos">Contactanos</Link>
+            </li>
           </ul>
         </div>
 
@@ -46,7 +51,7 @@ function FooterVal() {
           <h4>REDES SOCIALES</h4>
           <div className="FooterVal-SocialIcons">
             <a
-              href="https://facebook.com"
+              href="https://www.facebook.com/instituto.Valencia1"
               target="_blank"
               rel="noopener noreferrer"
             >

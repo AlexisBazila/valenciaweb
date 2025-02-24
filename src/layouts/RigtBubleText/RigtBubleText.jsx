@@ -1,9 +1,11 @@
 import React from "react";
-import "./RigtBubleText.css";
-import nonimage from "../../assets/images/nonimage.jpg";
+
 import evento1 from "../../assets/images/evento1.jpg";
 
 import LeftAlignedParagraph from "../../components/LeftAlignedParagraph/LeftAlignedParagraph";
+
+import "./RigtBubleText.css";
+
 function RigtBubleText() {
   const paragraphs = [
     "En el Instituto Valencia, entendemos que la verdadera belleza surge de un equilibrio entre el bienestar físico y el cuidado estético. Por eso, hemos creado un espacio donde la salud y la belleza se complementan, ofreciendo a nuestros clientes una experiencia completa que va más allá de lo superficial. Nos dedicamos tanto a mejorar tu apariencia como a cuidar tu bienestar integral.",

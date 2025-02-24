@@ -6,7 +6,6 @@
   background-position: top left, bottom right;
   background-size: 300px 300px, 300px 300px;
   background-repeat: no-repeat;
-  /* padding: 20px; */
   z-index: 1;
 }
 
@@ -16,41 +15,44 @@
   align-items: center;
   margin: 10px 15% 10px 15%;
 }
+
 .ImgDestacado {
   width: 50vh;
   border-radius: 0 200px;
 }
 
-@media (max-width:1100px) {
+/* Responsive */
+@media (max-width: 1100px) {
   .ItemsImage {
-   flex-direction: column;
-   margin: 10px 5% 10px 5%;
+    flex-direction: column;
+    margin: 10px 5% 10px 5%;
   }
   .ItemsImage div .IconItemListLeftDiv {
     max-width: 70vw;
   }
-.ImgDestacado {
-  width: 50vw;
+  .ImgDestacado {
+    width: 50vw;
   }
-  .ContentDiv{
+  .ContentDiv {
     background-color: rgba(255, 255, 255, 0.483);
     background-blend-mode: multiply;
   }
 }
-@media (max-width:600px) {
+
+@media (max-width: 600px) {
   .ImgDestacado {
     width: 90vw;
-}
+  }
   .ItemsImage div .IconItemListLeftDiv {
     flex-direction: column;
     max-width: 90vw;
   }
   .ItemsImage div .IconItemListLeftDiv .IconItemListLeftIcon {
     max-width: 10vh;
+  }
 }
 
-}
-@media (max-width:1000px) {
+@media (max-width: 1000px) {
   .BackGroundDiv {
     background-image: url("../../assets/images/hoja2-arriba-izquierda.png"),
       url("../../assets/images/hoja1-arriba-derecha.png"),
@@ -58,6 +60,5 @@
       url("../../assets/images/hoja2-abajo-derecha.png");
     background-position: top left, bottom right, 0% 60%, 100% 20%;
     background-size: 200px 200px, 200px 200px, 150px 150px, 150px 150px;
-  
   }
 }

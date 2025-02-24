@@ -1,10 +1,13 @@
 import React from "react";
-import "./Salud.css";
+
 import WitheTittleAndParagraph from "../../components/WitheTittleAndParagraph/WitheTittleAndParagraph";
 import CardTextAndPick from "../../components/CardTextAndPick/CardTextAndPick";
+
 import podologiapick from "../../assets/images/podologiapick.jpg";
 import masajes from "../../assets/images/masajes.jpg";
 import cosmetologiapick from "../../assets/images/cosmetologiapick.jpg";
+
+import "./Salud.css";
 
 function Salud() {
   return (

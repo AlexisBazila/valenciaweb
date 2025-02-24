@@ -1,5 +1,4 @@
 import React from "react";
-import "./Cursos.css";
 
 import CenterAlignedParagraph from "../../components/CenterAlignedParagraph/CenterAlignedParagraph.jsx";
 import Button from "react-bootstrap/Button";
@@ -20,7 +19,8 @@ import Estetisista from "../../assets/images/Estetisista.jpg";
 import DepilacionCurso from "../../assets/images/DepilacionCurso.jpg";
 import Dermopigmentacion from "../../assets/images/Dermopigmentacion.jpg";
 import AparatologiaCurso from "../../assets/images/AparatologiaCurso.jpg";
-import { TbBackground } from "react-icons/tb";
+
+import "./Cursos.css";
 
 function Cursos() {
   const paragraphs = [

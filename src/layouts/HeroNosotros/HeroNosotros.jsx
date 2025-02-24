@@ -1,11 +1,15 @@
 import React from "react";
-import "./HeroNosotros.css";
+
 import TituloPrincipal from "../../components/TituloPrincipal/TituloPrincipal";
+
 import ImageCouple from "../../components/ImageCouple/ImageCouple";
+
+import "./HeroNosotros.css";
+
 function HeroNosotros() {
   return (
     <div className="HeroNosotros">
-            <div className="TopImage">
+      <div className="TopImage">
         <ImageCouple />
       </div>
       <div>

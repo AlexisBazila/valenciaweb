@@ -1,5 +1,4 @@
 import React from "react";
-import "./Contact.css";
 
 import {
   FaFacebookF,
@@ -7,6 +6,8 @@ import {
   FaWhatsapp,
   FaMapMarkerAlt,
 } from "react-icons/fa";
+
+import "./Contact.css";
 
 function Contacto() {
   const whatsappNumber = "+5493755232012";
@@ -39,7 +40,7 @@ function Contacto() {
           <h2>Síguenos en redes sociales</h2>
           <div className="social-icons">
             <a
-              href="https://www.facebook.com"
+              href="https://www.facebook.com/instituto.Valencia1"
               target="_blank"
               rel="noopener noreferrer"
             >

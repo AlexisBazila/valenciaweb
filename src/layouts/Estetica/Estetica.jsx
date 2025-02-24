@@ -1,14 +1,16 @@
 import React from "react";
-import "./Estetica.css";
+
 import CenterAlignedParagraph from "../../components/CenterAlignedParagraph/CenterAlignedParagraph";
 import CardTextAndPickLeft from "../../components/CardTextAndPickLeft/CardTextAndPickLeft";
 import CardTextAndPickRight from "../../components/CardTextAndPickRight/CardTextAndPickRight";
-// Imagenes
+
 import esteticapick from "../../assets/images/esteticapick.jpg";
 import peluqueriapick from "../../assets/images/peluqueriapick.jpg";
 import depilacionpick from "../../assets/images/depilacionpick.jpg";
 import microbladingpick from "../../assets/images/microbladingpick.jpg";
 import maquillajepick from "../../assets/images/maquillajepick.jpg";
+
+import "./Estetica.css";
 
 function Estetica() {
   const paragraphs = [

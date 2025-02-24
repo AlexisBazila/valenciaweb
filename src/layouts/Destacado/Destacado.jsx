@@ -1,12 +1,16 @@
 import React from "react";
-import "./Destacado.css";
+
 import CenterAlignedParagraph from "../../components/CenterAlignedParagraph/CenterAlignedParagraph";
+import IconItemListLeft from "../../components/IconItemListLeft/IconItemListLeft";
+
 import relajante from "../../assets/images/relajante.svg";
 import atpersonalizada from "../../assets/images/atpersonalizada.svg";
 import innovation from "../../assets/images/innovation.svg";
 import profesional from "../../assets/images/profesional.svg";
 import team from "../../assets/images/team.jpg";
-import IconItemListLeft from "../../components/IconItemListLeft/IconItemListLeft";
+
+import "./Destacado.css";
+
 function Destacado() {
   const paragraphs = [
     "En el Instituto Valencia, nos enorgullece ofrecer un servicio integral que combina experiencia, innovación y dedicación. Nos destacamos por brindar una atención de calidad, respaldada por profesionales especializados y un enfoque centrado en el bienestar de cada persona",
