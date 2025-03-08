@@ -8,13 +8,14 @@ import karina from "../../assets/images/karina.jpg";
 import andrea from "../../assets/images/andrea.jpg";
 import noelia from "../../assets/images/noelia.jpg";
 import lorena from "../../assets/images/lorena.jpg";
-import marta from "../../assets/images/marta.jpg";
+import yanina from "../../assets/images/YaninaWeiss.jpg";
 import analia from "../../assets/images/analia.jpg";
 import podologia from "../../assets/images/podologia.svg";
 import masaje from "../../assets/images/masaje.svg";
 import cosmetologia from "../../assets/images/cosmetologia.svg";
 import dermatocosmiatria from "../../assets/images/dermatocosmiatria.svg";
 import lashista from "../../assets/images/lashista.svg";
+import uñas from "../../assets/images/uñas.svg";
 
 import "./Equipo.css";
 
@@ -38,10 +39,10 @@ function Equipo() {
             subTitle="Podologia, Estetisista integral"
           />
           <CardCirclePick
-            frontPick={marta}
-            backPick={masaje}
-            title="MARTA ARRUA"
-            subTitle="Esteticista, Masoterapeuta"
+            frontPick={yanina}
+            backPick={uñas}
+            title="YANINA WEISS"
+            subTitle="Uñas"
           />
           <CardCirclePick
             frontPick={andrea}
