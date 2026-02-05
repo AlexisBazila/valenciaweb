@@ -22,3 +22,21 @@
   background-color: #1ebe5d !important;
   border-color: #1ebe5d !important;
 }
+
+.CursoCard {
+  margin: 5px;
+  width: 18rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.CursoCard .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.CursoCard .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
