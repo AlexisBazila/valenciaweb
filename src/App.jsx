@@ -21,7 +21,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/nosotros" element={<Nosotros />} />
         <Route path="/servicios" element={<Servicios />} />
-        <Route path="/escuela" element={<Escuela />} />
+        <Route path="/cursos" element={<Escuela />} />
         <Route path="/contactanos" element={<Contactanos />} />
       </Routes>
       <FooterVal />

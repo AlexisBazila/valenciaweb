@@ -38,7 +38,7 @@ function FooterVal() {
               <Link to="/servicios">Servicios</Link>
             </li>
             <li>
-              <Link to="/escuela">Escuela</Link>
+              <Link to="/cursos">Escuela</Link>
             </li>
             <li>
               <Link to="/contactanos">Contactanos</Link>

@@ -52,7 +52,7 @@ const NavVal = () => {
               <Nav.Link
                 as={Link}
                 className="NavBarLink"
-                to="/escuela"
+                to="/cursos"
                 onClick={() => setExpanded(false)}
               >
                 Escuela
